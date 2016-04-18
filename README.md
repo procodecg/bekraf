@@ -11,4 +11,4 @@ Silahkan tambahkan nama para ibu dibawah ini :
 
 3. putri
 4. maya
-5. dyah paramita
+5. Natalia 
