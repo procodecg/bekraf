@@ -2,8 +2,6 @@
 
 
 Silahkan tambahkan nama para ibu dibawah ini :
-
-
 1. 
 
 
