@@ -1,2 +1,10 @@
 ini test
+<<<<<<< Updated upstream
 lalallaala
+=======
+<<<<<<< HEAD
+=-=-=-=
+=======
+lalallaala
+>>>>>>> origin/master
+>>>>>>> Stashed changes
