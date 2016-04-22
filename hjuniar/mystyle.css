@@ -20,12 +20,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    height: 30px;
+    height: 50px;
 }
 
 
 li {
-    display: inline;
+    display: inline-block;
+   
 }
 
 h2 {
