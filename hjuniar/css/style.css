@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
 body, html{
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@ h1 {
 
 .judul {
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
 }
 
 ul {
@@ -31,15 +33,21 @@ li {
 
 h2 {
     text-align: left;
-    color: coral;
+    color: black;
+    font-family: oswald;
+    font-weight: 200;
 }
 
 p {
-    color: turquoise;
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #262626;
 }
 
 .biggest-container{
-    background: rgba(237,241,242,1)    
+    background: white;    
 }
 
 .image-container{
@@ -52,10 +60,13 @@ p {
 .nav ul li  {
     margin: 10px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 .nav ul li a {
     color: black;
+    font-family: oswald;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav ul li a:hover {
@@ -63,5 +74,13 @@ p {
 }
 
 .judulweb {
-    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle
+}
+
+img{
+    ;
+    border: 0;
 }
