@@ -32,10 +32,11 @@ li {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
+    text-transform: uppercase;
     color: black;
     font-family: oswald;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 p {
@@ -56,6 +57,7 @@ p {
 
 .nav{
     text-align: center;
+    margin-bottom: 10px;
 }
 .nav ul li  {
     margin: 10px 10px 10px 10px;
@@ -70,17 +72,25 @@ p {
 }
 
 .nav ul li a:hover {
-    color: gray;
+    color: coral;
 }
 
 .judulweb {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle
+    margin: 40px auto 5px auto;
+    vertical-align: middle;
+    text-align: center;
 }
 
-img{
-    ;
-    border: 0;
+.blockitem{
+    padding: 2px 0;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+}
+
+.blockitem span {
+    color: white;
+    font-family: oswald;
+    text-transform: uppercase;
 }
