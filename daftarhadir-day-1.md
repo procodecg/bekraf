@@ -1,8 +1,8 @@
-Daftar Hadir Coding Mum Day #1 18 April 2016
+# Daftar Hadir Coding Mum Day `1` 18 April 2016
 
 Silahkan masukkan nama lengkap ibu dibawah ini:
 
-1.  Ibu Bintang Senja Pratama
+1.  Bintang Senja Pratama
 2.  Ibu Chika Chris Evans
 3.  Dyah Paramita
 4.  Ibu Hortensia Juniar
@@ -14,3 +14,5 @@ Silahkan masukkan nama lengkap ibu dibawah ini:
 10. Tantri Nursanti
 11. Natalia Widiyanti
 12. Sri m
+
+Untuk melihat laporan tentang hari pertama coding mom, [**klik disini**](https://procodecg.wordpress.com/2016/04/18/coding-mum-day-1-18-april-2016/)
