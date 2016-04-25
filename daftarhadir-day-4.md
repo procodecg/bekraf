@@ -3,16 +3,9 @@
 1. Dyah Paramita
 2. uchie
 3. chika
-<<<<<<< HEAD
 4. putri
 5. sandra
 6. yuni
-7.maya
-
-=======
-4. sandra
-5. Teti
-6. putri
-7. sandra
-8. yuni
->>>>>>> origin/master
+7. maya
+8. Teti
+9. putri
