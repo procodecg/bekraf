@@ -1,3 +1,33 @@
 h1 { 
-font-family: sans-serif,lato;
+    font-family: sans-serif;
+    color: darkorange;
+    text-align: center;
+}
+
+.openingtext {
+    background-color:aliceblue;
+    color:darkblue;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.text1 {
+    background-color: beige;
+    color: blue;
+    font-family: fantasy;
+}
+.bakso {
+/*    width:1000px;*/
+    overflow:hidden;
+            
+}
+.bakso1 .bakso2 {
+/*    width:200px;*/
+    float:left;
+    padding:10px;
+}
+
+.bakso3{
+overflow: auto
 }
