@@ -20,19 +20,27 @@ li {
     text-align: center;
 }
 
-p {
+#kolomkiri{
+    float: left;
+    width: 240px;
     text-align: justify;
-    background-color: bisque;
-    padding: 20px
+    padding: 10px
 }
 
 
+#kolomtengah{
+    float: left;
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+}
 
 
-
-
-
-
+#kolomkanan{
+    overflow: auto;
+    text-align: justify;
+    padding: 10px
+}
 
 
 
