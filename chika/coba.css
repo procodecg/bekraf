@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: courier, sans-serif;
+}
+
+p{
+    font-family: monospace;
+}
+
+.kirikanan{
+    padding: 40px;
+    font-family: sans-serif;
+    text-align: justify; 
+}
+
+#kolomkiri{
+    float:left;
+    width: 240px;
+    padding: 10px;
+}
+
+#kolomtengah{
+    float: left;
+    width: 400px;
+    padding: 10px;
+}
+
+/* ini adalah komentar. gunanya untuk memberikan 
+keterangan di dalam program */
+#kolomkanan{
+/*    float: left;*/
+    overflow: auto;
+    padding: 10px;
+}

@@ -1,0 +1,51 @@
+h1 {
+    color:darkmagenta;
+    font-family: garamond;
+    background-color: bisque;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    background-color: bisque;
+    padding: 20px;
+}
+strong{
+    padding: 20px;
+}
+img {
+    height: 25%;
+    width: 25%;
+}
+li {
+    text-align: center;
+}
+
+#kolomkiri{
+    float: left;
+    width: 240px;
+    text-align: justify;
+    padding: 10px
+}
+
+
+#kolomtengah{
+    float: left;
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#kolomkanan{
+    overflow: auto;
+    text-align: justify;
+    padding: 10px
+}
+
+
+
+
+
+
+
+
