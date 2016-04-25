@@ -1,0 +1,35 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family: sans-serif;
+}
+
+#nav {
+    line-height:30px;
+    background-color:lightgrey;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+
+#section {
+    width:550px;
+    float:left;
+    padding:10px; 
+}
+
+#rightcolumn {
+    overflow: auto;
+    padding-top: 75px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
