@@ -5,3 +5,4 @@
 3. chika
 4. putri
 5. sandra
+6. yuni
