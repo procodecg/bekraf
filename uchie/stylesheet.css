@@ -13,8 +13,31 @@ strong{
     padding: 20px;
 }
 img {
-    display: block;
-    text-align: center;
     height: 25%;
     width: 25%;
 }
+li {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    background-color: bisque;
+    padding: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
