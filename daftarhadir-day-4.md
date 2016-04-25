@@ -3,4 +3,6 @@
 1. Dyah Paramita
 2. uchie
 3. chika
-4. sandra
+4. putri
+5. sandra
+6. yuni
