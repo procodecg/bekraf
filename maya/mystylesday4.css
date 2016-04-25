@@ -17,17 +17,23 @@ h1 {
     color: blue;
     font-family: fantasy;
 }
-.bakso {
-/*    width:1000px;*/
-    overflow:hidden;
             
-}
-.bakso1 .bakso2 {
-/*    width:200px;*/
+.bakso1 {
+    width:200px;
     float:left;
     padding:10px;
+    
+}
+
+.bakso2 {
+    float: left;
+    width: 200px;
+    padding:10px;
+    padding-left: 100px;
 }
 
 .bakso3{
-overflow: auto
+    overflow: auto;
+    padding:10px;
+    padding-left: 130px;
 }
