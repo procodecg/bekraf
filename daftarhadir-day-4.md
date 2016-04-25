@@ -8,10 +8,7 @@
 6. yuni
 7. maya
 8. Teti
-<<<<<<< HEAD
 9. putri
 10.Natalia
-=======
-9. budi
-10. Tita
->>>>>>> origin/master
+11. budi
+12. Tita
