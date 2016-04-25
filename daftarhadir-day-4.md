@@ -8,5 +8,4 @@
 6. yuni
 7. maya
 8. Teti
-9. putri
-10. budi
+9. budi
