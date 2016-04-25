@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: courier, sans-serif;
+}
+
+p{
+    font-family: monospace;
+}
+
+.kirikanan{
+    padding: 40px;
+    font-family: sans-serif;
+}
