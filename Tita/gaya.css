@@ -1,18 +1,48 @@
-h1{
+#header1{
     text-align: center;
-    font-size:"7"
+    background-color:red;
+    color:white;
+    padding:10px;
+    font-family: sans-serif;
+    font-size:200%;
 }
-h2 {
-  margin: 0;
-  width: 150px;
-  text-align: right;
-  font: bold 20px Sans-Serif; color: red
+
+#header2 {
+    color:black;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 15px;
+    width:350px;
+ }
+
+#kolom1 {
+    background-color:lightpink;
+    float: left;
+    padding: 15px;
+    width: 350px;
+    
 }
-  
-div {
-  margin: 15 15 30px 0;
-  width:
-  padding: 10px;
-  background: azure;
-  font-size: "6" 
+
+#kolom2 {
+    float: left;
+    font-family: monospace;
+    width: 450px;
+    color:black;
+    padding: 10px;
+}
+
+#kolom3 {
+    float: overflow;
+    text-align: justify;
+    font-family: monospace;
+    color:black;
+    padding: 10px;
+}
+
+#catatan {
+    background-color:red;
+    color:white;
+    font-family: monospace;
+    clear: both;
+    padding: 10px;
 }
