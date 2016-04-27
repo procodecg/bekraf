@@ -1,0 +1,94 @@
+body { 
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 { text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+	font-size: 30px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4{
+    font-size: 18px;
+    color: blue;
+    font-family: sans-serif;
+    text-align: justify
+}
+
+.container{
+    padding: 20px;
+    background: white;   
+}
+
+/*.inside-head{*/
+/*    background-image: url(fotograrden.jpeg)*/
+/*    background-position: center top;*/
+/*    background-size: cover;*/
+/*    padding: 20px;*/
+    
+/*}*/
+
+#kolomkiri{
+    width: 250px;
+    float: left;
+    padding: 30px;
+/*    background-color: plum;*/
+    
+}
+
+#kolomtengah{
+    float: left;
+    width: 600px;
+    padding: 0px;
+}
+
+#kolomkanan{
+/*    float: right;*/
+    overflow: auto;
+    padding: 30px;
+    
+}
+
+li {
+    font-size: 20px;
+    color: skyblue;
+    font-family:sans-serif;
+    text-align: left;
+    padding-top: 20px;
+}
+/*p {
+	color: skyblue;
+	font-size: 20px;
+    text-align: justify
+}*/
+
+.hero { 
+  background-image: url("http://www.vegetablegardener.com/assets/uploads/posts/62669/garden.jpg");
+  background-size:contain;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
+}
+
+
+
+#footer {
+    padding: 10px 0;
+    margin-top: 1000px;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;   
+}
+
+
