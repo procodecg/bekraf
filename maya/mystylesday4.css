@@ -1,7 +1,18 @@
+.maincontainer{
+    
+}
+
 h1 { 
+    background-image: url(headerkeren.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
-    color: darkorange;
+    color: black;
     text-align: center;
+    height: 400px;
+    line-height: 500px;
+    
+    
 }
 
 .openingtext {
@@ -17,24 +28,86 @@ h1 {
     color: brown;
     font-family: helvetica;
 }
-            
-.bakso1 {
-    width:200px;
-    float:left;
-    padding:10px;
     
     
-}
+
 
 .bakso2 {
     float: left;
-    width: 200px;
-    padding:10px;
-    padding-left: 120px;
+    width: 30%;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    
+    
+}
+.bakso2 p {
+    text-align: justify;
+    font-family: oswald;
 }
 
-.bakso3{
-    overflow: auto;
-    padding:10px;
-    padding-left: 180px;
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: oswald;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content a{
+    font-family: oswald;
+    color: aqua;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 15px;
 }
