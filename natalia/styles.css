@@ -1,0 +1,28 @@
+h1{
+text-align: left; font-size: 50; font color="purple";font: bold 50px Sans-Serif;
+}
+h2
+{
+font color="green";font: bold 30px Sans-Serif;
+}    
+.header img {
+    text-align: center;
+    float: right; 
+    width: 600px;
+    height: 100%;
+}
+p{
+    padding: 20px;
+    font-family:monospace 50px;
+}
+#leftcoloum{
+    float: left;
+    padding: 10px;
+    font :bold 30px serif ;
+    width: 240px
+}
+#rightcoloum{
+    float: right;
+    padding: 10px;
+    width: auto
+}

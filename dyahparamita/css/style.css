@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   min-height: 100%;
   display:grid;
@@ -16,6 +17,13 @@ body {
   background-position: center;
   background-size:cover;
   margin: 0;
+=======
+body { 
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+>>>>>>> master
 }
 
 h1 { text-align: center;
@@ -30,12 +38,19 @@ h2 {
 
 h3 {
     font-size: 25px;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> master
 }
 
 h4{
     font-size: 18px;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: blue;
+>>>>>>> master
     font-family: sans-serif;
     text-align: justify
 }
@@ -45,12 +60,17 @@ h4{
     background: white;   
 }
 
+<<<<<<< HEAD
 .inside-head{
+=======
+/*.inside-head{*/
+>>>>>>> master
 /*    background-image: url(fotograrden.jpeg)*/
 /*    background-position: center top;*/
 /*    background-size: cover;*/
 /*    padding: 20px;*/
     
+<<<<<<< HEAD
 }
 
 #kolomkiri{
@@ -59,6 +79,15 @@ h4{
     padding: 30px;
     margin-right: 20px;
     background-color: plum;
+=======
+/*}*/
+
+#kolomkiri{
+    width: 250px;
+    float: left;
+    padding: 30px;
+/*    background-color: plum;*/
+>>>>>>> master
     
 }
 
@@ -90,6 +119,7 @@ li {
 
 .hero { 
   background-image: url("http://www.vegetablegardener.com/assets/uploads/posts/62669/garden.jpg");
+<<<<<<< HEAD
   background-size:cover;
     background-position:center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -109,6 +139,15 @@ li {
   position:relative;
 
 }
+=======
+  background-size:contain;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
+}
+
+
+>>>>>>> master
 
 #footer {
     padding: 10px 0;
