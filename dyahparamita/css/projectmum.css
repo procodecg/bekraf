@@ -38,6 +38,14 @@ body {
     display: inline-block;
 }
 
+.top li img{
+    width: 50px;
+    
+}
+.top li a{
+    text-decoration: none;
+    color: black;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -46,7 +54,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: plum;
+    background-color: beige;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -59,17 +67,22 @@ body {
 
 .middle{
     padding: 300px;
-    background-image:url(https://image.freepik.com/free-vector/abstract-flower-background_23-2147511526.jpg);  
+    background-image:url(../image/teling.jpg);  
+/*    opacity:0.5;*/
     margin: 40px;
     clear:both;
-    text-align: center;
-    background-size: cover;
-    
+    text-align:center ;
+    background-size:cover;
+    background-position: center;
 }
 
-.img{
-    opacity:0.4;
-}
+/*.img{*/
+/*    opacity:0.5;*/
+/*}*/
+
+
+
+
 .footer {
     padding: 10px 0;
     margin-top: 10px;
@@ -84,15 +97,16 @@ body {
 
 .myprofile-btn a {
   cursor: pointer;
-  margin: 10px;
-  padding: 15px 50px;
+  margin: 0px;
+  padding: 5px 0px;
   border: none;
   position:relative;
-/*    background-image: transparent;*/
+  resize: 20px;
+
 
 }
 
 .myprofile-btn a:active {
-  top: 2px;
+  top: 20px;
 
 }
