@@ -1,6 +1,8 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 15px;
 }
 
 .dropdown-content {
@@ -15,4 +17,8 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-content a {
+    display: inline-block;
 }
