@@ -6,10 +6,12 @@ h1{
 }
 
 body{
-    background-image: url("bend-dont-break.jpg");
+/*    background-image: url("bend-dont-break.jpg");*/
+/*    background-image: url("new-procodecg-logo-transparent.png");*/
+    background-image: url("procodecg-logo-transparent.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 100%;
+    background-size: 70%;
     font-family: 'Open Sans Condensed', sans-serif;
 
 /*    opacity: 0.6;*/
@@ -43,7 +45,7 @@ keterangan di dalam program */
 
 .dropbtn {
     background-color: #4CAF50;
-    background-color: rgba(173, 216,230, 0.2);
+    background-color: rgba(173, 216,230, 0.4);
     color: white;
     padding: 16px;
     font-size: 16px;
