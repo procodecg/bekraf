@@ -10,11 +10,22 @@ h1 {
     color: black;
     text-align: center;
     height: 400px;
-    line-height: 500px;
-    
-    
+    line-height: 500px; 
 }
-
+.ciloks {
+    background-image: url(cilokheader.jpg);
+    color: red;
+    font-size: 80;
+}
+.batagors {
+    background-image: url(batagorheader.jpg);
+    color: red;
+    font-size: 80;
+    
+    
+        
+    }
+}
 .openingtext {
     background-color:aliceblue;
     color:orangered;
