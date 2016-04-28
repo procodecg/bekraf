@@ -103,3 +103,17 @@ footer {
     text-align: center;    
 }
 
+.column4 {
+    float: left;
+    width: 25%;
+    
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
