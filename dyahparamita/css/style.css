@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html, body {
   min-height: 100%;
   display:grid;
@@ -7,24 +6,13 @@ html, body {
   line-height: 1.5;
 }
 body { 
-/*    height: 100%;*/
-/*	margin: 0;*/
-/*	text-align: center;*/
-/*	width: 100%;*/
-/*    display: flex;*/
     font-family: 'Lato', sans-serif;
     background-image: url('http://freedesignfile.com/upload/2013/11/blue_sky_05.jpg');
   background-position: center;
   background-size:cover;
-  margin: 0;
-=======
-body { 
-    height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
->>>>>>> master
+  margin: 20px;
 }
+
 
 h1 { text-align: center;
     font-family: sans-serif;
@@ -46,7 +34,6 @@ h3 {
 
 h4{
     font-size: 18px;
-<<<<<<< HEAD
     color: #ffffff;
 =======
     color: blue;
@@ -56,22 +43,11 @@ h4{
 }
 
 .container{
-    padding: 20px;
-    background: white;   
+    padding: 10px;
+    background: #d8bfd8;   
+    margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
-.inside-head{
-=======
-/*.inside-head{*/
->>>>>>> master
-/*    background-image: url(fotograrden.jpeg)*/
-/*    background-position: center top;*/
-/*    background-size: cover;*/
-/*    padding: 20px;*/
-    
-<<<<<<< HEAD
-}
 
 #kolomkiri{
     width: 300px;
@@ -79,16 +55,6 @@ h4{
     padding: 30px;
     margin-right: 20px;
     background-color: plum;
-=======
-/*}*/
-
-#kolomkiri{
-    width: 250px;
-    float: left;
-    padding: 30px;
-/*    background-color: plum;*/
->>>>>>> master
-    
 }
 
 #kolomtengah{
@@ -119,12 +85,12 @@ li {
 
 .hero { 
   background-image: url("http://www.vegetablegardener.com/assets/uploads/posts/62669/garden.jpg");
-<<<<<<< HEAD
+
   background-size:cover;
-    background-position:center;
+  background-position:center;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   padding: 30px 0;
-	margin: 20px; color: blue;
+  margin: 20px; color: blue;
 }
 
 .myprofile-btn{
@@ -132,28 +98,33 @@ li {
 }
 
 .myprofile-btn a {
-    cursor:cell;
+    cursor:pointer;
   margin-right:80px;
   padding: 10px 20px;
   border:5px solid #204156;
   position:relative;
 
 }
-=======
+
+.myprofile-btn a:active {
+  top: 2px;
+}
+
   background-size:contain;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   padding: 50px 0;
 	margin: 0px; color: #ffffff;
 }
 
+.contact-btn a:active {
+  top: 2px;
+}
 
->>>>>>> master
 
 #footer {
-    padding: 10px 0;
-    margin-top: 1000px;
-    background-color: #262626;
-    color: #fff;
+    padding: 10px;
+    margin-top: 70px;
+    background-color: plum;
     text-align: center;   
 }
 
