@@ -6,16 +6,16 @@ h1 {
 
 .openingtext {
     background-color:aliceblue;
-    color:darkblue;
+    color:orangered;
     padding: 10px 20px 10px 20px;
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 .text1 {
     background-color: beige;
-    color: blue;
-    font-family: fantasy;
+    color: brown;
+    font-family: helvetica;
 }
             
 .bakso1 {
@@ -23,17 +23,18 @@ h1 {
     float:left;
     padding:10px;
     
+    
 }
 
 .bakso2 {
     float: left;
     width: 200px;
     padding:10px;
-    padding-left: 100px;
+    padding-left: 120px;
 }
 
 .bakso3{
     overflow: auto;
     padding:10px;
-    padding-left: 130px;
+    padding-left: 180px;
 }
