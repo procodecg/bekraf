@@ -1,0 +1,76 @@
+body { 
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    background-color: beige;
+  background-position: center;
+  background-size:cover;
+  margin: 0;
+}
+.header{
+    padding: 2px;
+    background-color: burlywood;  
+    margin: 40px;
+    clear:both;
+    text-align: center;
+}
+
+.hero { 
+  background-color:#f3e5ab;
+  background-size:contain;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
+}
+
+.top{
+    list-style: none;
+    padding-top: 10px;
+    word-spacing: 40px;
+
+}
+.top li {
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: plum;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.middle{
+    padding: 300px;
+    background-image:url(https://image.freepik.com/free-vector/abstract-flower-background_23-2147511526.jpg);  
+    margin: 40px;
+    clear:both;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+.footer {
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;   
+}
