@@ -119,9 +119,11 @@ li {
 .socialmedia img {
     width:50px;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.8;
 }
-
+.socialmedia a {
+    padding:10px;
+}
 
 
 
