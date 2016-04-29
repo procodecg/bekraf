@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-html, body {
-  min-height: 100%;
-  display:flex;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
+body { 
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
 }
 
 body { 
@@ -15,24 +15,15 @@ body {
   background-size:cover;
   margin: 0;
 }
-
-.header-title{
-    text-align: center;
-    margin:10px;
-    
-    
-}
 .header{
-/*    padding: px;*/
+    padding: 2px;
     background-color: burlywood;  
-    margin: 20px;
+    margin: 40px;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 130px;
     clear:both;
-    text-align:center;
+    text-align: center;
     font-family: fjalla one, sans-serif;
-}
-
 }
 
 .hero { 
@@ -45,7 +36,7 @@ body {
 
 .top{
     list-style: none;
-    padding-top: 10px;
+/*    padding-top: ;*/
     word-spacing: 40px;
 
 }
@@ -54,12 +45,14 @@ body {
 }
 
 .top li img{
-    width: 50px;
+    width: 200px;
+    border: 5px solid #deb887;
+    flex-wrap: wrap
     
 }
 .top li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .dropdown {
     position: relative;
@@ -75,30 +68,44 @@ body {
     padding: 12px 16px;
     z-index: 1;
     border-radius: 4px;
-    color:aqua;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.middle{
-    padding: 300px;
-    background-image:url(../image/teling.jpg);  
-    margin: 120;
-    margin-top: 0px;
+.middle-desc{
+    padding: 30px;
+    margin:120px;
+    margin-top: 1px;
     clear:both;
-    text-align:center ;
-    background-size:cover;
-    background-position: center;
-    display: inline-block;
+    text-align:justify ;
+    text-decoration-color: black;
+/*    background-size:cover;*/
+/*    background-position: center;*/
+    border: 2px solid #deb887;
+    font-family: PT sans narrow,sans-serif;
+   
 }
 
 /*.img{*/
 /*    opacity:0.5;*/
 /*}*/
 
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
 
 
 .footer {
