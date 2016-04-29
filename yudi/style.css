@@ -10,6 +10,15 @@
 .biru {
 	color: #0000FF;
 }
+
+.paksa {
+  display: block;
+}
+
+.lemah {
+	display: inline;
+}
+
 /* Section Picture */
 #picture {
 	background-image: url(picture.jpg);
