@@ -12,5 +12,14 @@
 }
 
 .body{
-    background-color: lightgreen
+    background-color: lightgreen;
+}
+.logo{
+    float: left;
+}
+.logo li {
+    display: inline-block;
+} 
+.navigasi li{
+    display: inline-block
 }
