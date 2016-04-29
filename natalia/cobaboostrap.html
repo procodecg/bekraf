@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>NatBootstrap</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
- <link rel="stylesheet" href="natboostrap.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <title>Natalia coba Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/nataliaboostrap.css">    
 </head>
 <body>
-<div class="container" id="navigation"></div>    
-<div class="container main" >
-    <div class="row"></div>
-        <div class="col-xs-4">ini kolom kiri</div>
-        <div class="col-xs-8">ini kolom kanan</div>
-</div>
     
-<!-- Bagian footer -->
-<div class="container footer">ini calon footer</div>
+<!--start header-->
+<div class="container bg-merah" id="navigation">Ini calon header</div> 
+<!--End Header-->
+    
+<!--Start isi-->
+<div class="container bg-biru" id="main-content" >
+    <div class="row">
+        <div class="col-xs-4 bg-merah">ini kolom kiri</div>
+        <div class="col-xs-8 bg-hijau">ini kolom kanan
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-4 bg-hijau">ini kolom kiri</div>
+        <div class="col-xs-4 bg-merah">ini kolom tengah</div>
+        <div class="col-xs-4 bg-hijau">ini kolom kanan</div>
+    </div>
+</div>
+<!--End isi-->
+    
+<!-- Start footer -->
+<div class="container bg-hijau">ini calon footer</div>
+<!--end footer-->
+    
+<!--Start Javascrip-->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<!--end Javascrip-->
+    
 </body>
 </html>    
