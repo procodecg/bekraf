@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>It's Cooking Time</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>My First Bootstrap Page</h1>
+    <p>Resize this responsive page to see the effect!</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Cara pertama</h3>
+      <p>siapkan semua bahan</p>
+      <p>bersihkan smua bahan</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Cara kedua</h3>
+      <p>potongin bahan</p>
+      <p>atur2 we</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Cara ketiga</h3>        
+      <p>mulai masak</p>
+      <p>kl udh mateng makan</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
