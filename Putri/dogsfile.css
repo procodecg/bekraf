@@ -1,8 +1,14 @@
 h1 {
     text-align: center; font-size: 50px;
-    font: bold 50px; background-color: lightcyan; color: orange;
+    font: bold 50px; background-color: lightcyan; color:lightcoral;
 }
 
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    text-align:justify;
+    padding:15px;
+}
 #kolom1 {
     text-align: justify; 
     padding: 25px;
