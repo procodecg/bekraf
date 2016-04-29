@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
 h1{
     text-align: center;
     color: aqua;
@@ -32,6 +34,7 @@ keterangan di dalam program */
 /*    float: left;*/
     overflow: auto;
     padding: 10px;
+<<<<<<< HEAD
 }
 
 .dropbtn {
@@ -47,6 +50,7 @@ keterangan di dalam program */
 .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -77,5 +81,9 @@ keterangan di dalam program */
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
+=======
+}
+>>>>>>> dyah-paramita
