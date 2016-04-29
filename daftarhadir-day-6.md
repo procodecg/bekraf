@@ -4,7 +4,8 @@ Daftar Hadir Coding Mum Day-6
 2. Putri
 3. Aditia
 4. Budi
-5. Sandra
-6. maya
-7. dyah
-8. uchie
+5. Natalia
+6. Sandra
+7. maya
+8. dyah
+9. uchie

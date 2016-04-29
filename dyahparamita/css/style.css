@@ -26,6 +26,17 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
+body { 
+    font-family: 'Lato', sans-serif;
+    background-image: url('http://freedesignfile.com/upload/2013/11/blue_sky_05.jpg');
+  background-position: center;
+  background-size:cover;
+  margin: 0;
+}
+
+=======
+>>>>>>> dyah-paramita
 
 h1 { text-align: center;
     font-family: sans-serif;
@@ -57,6 +68,10 @@ h4{
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 .inside-head{
 /*    background-image: url(fotograrden.jpeg)*/
 /*    background-position: center top;*/
@@ -64,11 +79,17 @@ h4{
 /*    padding: 20px;*/
     
 }
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> dyah-paramita
 >>>>>>> master
 
 #kolomkiri{
     width: 300px;
     float: left;
+<<<<<<< HEAD
 <<<<<<< HEAD
     padding-left: 40px;
 /*    background-color: plum;*/
@@ -76,6 +97,13 @@ h4{
     padding: 30px;
     margin-right: 20px;
     background-color: plum;
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+    padding-left: 40px;
+/*    background-color: plum;*/
+>>>>>>> dyah-paramita
 >>>>>>> master
     
 }
@@ -115,6 +143,11 @@ li {
 	margin: 20px; color: blue;
 }
 
+<<<<<<< HEAD
+.myprofile-btn{
+    float: right
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 .myprofile-btn {
   float: right;
@@ -156,6 +189,46 @@ li {
 =======
 .myprofile-btn{
     float: right
+>>>>>>> master
+=======
+.myprofile-btn {
+  float: right;
+>>>>>>> dyah-paramita
+}
+
+.myprofile-btn a {
+  cursor: pointer;
+  margin-right: 100px;
+  padding: 8px 50px;
+  border: 2px solid #204156;
+  position:relative;
+
+}
+
+.myprofile-btn a:active {
+  top: 2px;
+
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: plum;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 >>>>>>> master
 }
 
