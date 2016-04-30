@@ -1,15 +1,64 @@
-.bg-merah{
-    background-color: #ff0000;
+body {
+    background-color: #cfeafc;
 }
 
-.bg-biru{
-    background-color: #0000ff;
+
+/*code bsgian header*/
+
+.container.bg-biru {
+    /*class bg-biru di dlm class container*/
+    padding: 50px;
+    text-align: center;
+    background-color: #5486c4;
+    border-radius: 15px;
 }
 
-.bg-hijau{
-    
-    background-color: #00ff00;
-}
-#main-content{
+/*end code header*/
+
+
+/* membuat warna kuning di bagian container utama di bagian isi*/
+
+#main-content {
     margin: 10px auto 10px auto;
+    background-color: #fdfcdd;
 }
+
+
+/* membuat bg warna untuk 2 kolom class row dalam class container utama */
+
+.bg-abu {
+    /*memberi warna pada kolom kiri atas*/
+    background-color: #bbbdc2;
+}
+
+.bg-tosca {
+    /*memberi warna pada kolom kanan atas*/
+    background-color: #aee1d7;
+}
+
+.bg-merah {
+    /*memberi warna pada kolom tengah bawah*/
+    background-color: #ecaac3;
+}
+
+h5 {
+    text-align: center;
+}
+
+.row.bawah {
+    text-align: justify;
+    padding-top: 8px;
+}
+
+
+/*end code main container*/
+
+
+/*mengatur footer*/
+
+#footer {
+    background-color: #5486c4;
+    text-align: center;
+}
+
+/*end code footer*/
