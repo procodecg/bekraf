@@ -1,0 +1,223 @@
+ol, ul {
+    list-style: none;}
+
+
+body {color: #333; 
+    font-family: 'Lato', sans-serif;
+    padding-top: 66px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'helvetica', sans-serif;
+}
+p {
+    line-height: 20px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(250, 250, 250, 0.8);
+    border-bottom: 2px solid #ccc;
+    height: 66px;
+    width: 100%;
+}
+nav ul {
+  float: right;
+}
+nav li {
+    float: left;
+    width: auto;
+}
+nav li a {
+    padding: 25px 10px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+
+}
+nav li a:hover {
+    background: #e5e5e5;
+}
+#brand {
+  text-indent: -9000px;
+    background: url(../images/z.png) no-repeat top left;
+    background-size: 45px;
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin: 10px;
+    visibility: hidden;
+} 
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+#hero {
+  background: url(images/beach.jpeg) no-repeat top left;
+  text-align: center;
+  color: #fafafa;
+  background-size: cover;
+  height: 450px;
+  padding: 25px 0;
+}
+
+#hero img {
+  width: 150px; 
+  border-radius: 50%;
+    xmargin-top: 30px;
+    visibility: hidden;
+}
+#hero h2 {
+    font-size: 400%;
+    margin: 10px;
+}
+#hero span {
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 150%;
+}
+#main-content{
+    text-align: center;
+    padding: 25px 0;
+    overflow: hidden;
+}
+#main-content h3{
+    font-size: 250%;
+    margin: 20px 0;
+}
+#content {
+    font-size: 100%
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.column img {
+    width: 311px;
+    height:243px;
+    border-radius: 5%;
+    
+    margin-bottom: 20px;
+}
+.column h4 {
+    color: black;
+    font-size: 150%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.column .btn {
+   border: 2px solid gray;
+   
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+}
+
+#social {
+    background: gray;
+    color: #fafafa;
+    padding: 0px 0;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#social ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+#social li {
+  display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+#social ul li img
+{
+    margin: 20px;
+}
+footer
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+
+@media only screen and (max-width: 901px)
+{
+    .column {
+        padding: 10px;
+    }
+    #hero h2 {
+        font-size: 200%;
+    }
+    #main-content h3{
+        font-size: 150%;
+    }   
+}
+
+@media only screen and (max-width: 640px)
+{
+    .column {
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin: 0 0 40px 0;
+    } 
+}
