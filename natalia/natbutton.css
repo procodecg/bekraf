@@ -23,3 +23,9 @@
 .navigasi li{
     display: inline-block
 }
+.logo{
+    float: left;
+}
+.logo li {
+    display: inline-block;
+}
