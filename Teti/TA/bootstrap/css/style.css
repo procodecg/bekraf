@@ -1,0 +1,51 @@
+/*code bsgian header*/
+
+img {
+    height: 150px;
+}
+
+#header {
+    text-align: right;
+}
+
+
+/*end code header*/
+
+
+/* membuat warna kuning di bagian container utama di bagian isi*/
+
+#main-content {
+    margin: 10px auto 10px auto;
+    text-align: center;
+    height: 300px;
+    background-color: #b2cbf8;
+    border-radius: 10px;
+}
+
+
+/* membuat bg warna untuk 2 kolom class row dalam class container utama */
+
+.menu img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+}
+
+
+/*end code main container*/
+
+
+/*mengatur footer*/
+
+#footer {
+    text-align: center;
+}
+
+#footer img {
+    text-align: center;
+    height: 50px;
+}
+
+
+/*end code footer*/
