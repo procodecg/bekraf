@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+
+.menu {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu ul li  {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+}
+
+.menu ul li a:hover {
+    color: coral;
+}
+.menu ul li a {
+    color: black;
+    font-family: oswald;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+span {
+color: black;
+    font-family: oswald;
+    text-transform: uppercase;
+    text-decoration: none;
+}
