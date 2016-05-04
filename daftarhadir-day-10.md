@@ -4,3 +4,4 @@ Tanggal: 4 May 2016
 `
 1. Chika
 2. Budi
+3. Teti
