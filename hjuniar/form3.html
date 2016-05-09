@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>test input</title>
     <script language="JavaScript">
-        
+        function testButton(form) {
+            for (Count = 0; Count < 3; Count++) {
+                if (form.rad[Count].checked)
+                    break;
+            }
+            Count++;
+            alert("Button" + Count + " is selected" );
+        }
     </script>
 </head>
+
 <body>
-    
+    <form name="testform">
+        <input type="button" name="button" value="Click" onClick="testButton(this.form)">
+        <br>
+        <input type="radio" name="rad" value="rad_button1" onClick=0>Radio1<br>
+        <input type="radio" name="rad" value="rad_button2" onClick=0>Radio2<br>
+        <input type="radio" name="rad" value="rad_button3" onClick=0>Radio3<br>
+        
+        
+    </form>
 </body>
+
 </html>
