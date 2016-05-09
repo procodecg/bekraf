@@ -3,6 +3,12 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        serve: {
+                options: {
+                          port: 9000
+                }
+        },
+
         uglify: {
             main: {
                 src: 'js/<%= pkg.name %>.js',
@@ -49,7 +55,7 @@ module.exports = function(grunt) {
                 files: ['js/<%= pkg.name %>.js'],
                 tasks: ['uglify'],
                 options: {
-                    spawn: false,
+                    spawn: false
                 },
             },
             less: {
@@ -57,6 +63,7 @@ module.exports = function(grunt) {
                 tasks: ['less'],
                 options: {
                     spawn: false,
+                    reload: true
                 }
             },
         },
@@ -67,8 +74,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-serve');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('default', ['uglify', 'less', 'usebanner', 'serve']);
 
 };
