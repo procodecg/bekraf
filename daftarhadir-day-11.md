@@ -8,3 +8,4 @@ Tanggal: 9 May 2016
 5. Dyah
 6. Teti
 7. Tita
+8. Natalia
