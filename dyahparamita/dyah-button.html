@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<TITLE>Radio Button Test</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+function testButton (form){
+    for (Count = 0; Count < 3; Count++) {
+        if (form.rad[Count].checked)
+            break;
+    }
+    Count++;
+    alert ("Button " + Count + " is selected");
+}
+</SCRIPT>
+</BODY>
+<FORM NAME="testform">
+<INPUT TYPE="button" NAME="button" Value="Click" 
+    onClick="testButton(this.form)"> <BR>
+<INPUT TYPE="radio" NAME="rad" Value="rad_button1" onClick=0>Radio 1<BR>
+<INPUT TYPE="radio" NAME="rad" Value="rad_button2" onClick=0>Radio 2<BR>
+<INPUT TYPE="radio" NAME="rad" Value="rad_button3" onClick=0>Radio 3<BR>
+</FORM>
+</HTML> 
