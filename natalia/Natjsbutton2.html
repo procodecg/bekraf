@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Test Input</title>
+<script language="javascript">
+function readText (form) {
+    testvar = form.inputbox.value;
+    alert ("you typed: "+testvar);
+}
+function writeText (form) {
+    form.inputbox.value = "Have a nice day!";
+}    
+</script>
+</head>
+<body>
+<form NAME="myform" ACTION="" METHOD="get">
+    Enter something in the box: <BR></BR>
+    <input type="text" NAME="inputbox" value=""></input><p></p>
+    <input type="button" NAME="button1" value="Read" onclick="readText(this.form)"></input>
+    <input type="button" NAME="button2" value="write" onclick="writeText(this.form)"></input>
+</form>
+</body>
+</html>
