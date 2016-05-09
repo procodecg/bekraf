@@ -34,8 +34,33 @@ h3{
     height: 50px;
     font-size: 25px;
     padding-top: 5px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    padding: 10px
 }
 .logo li {
+    display: block;
+    float: left;
+}
+
+.header {
+    text-align: center;
+    
+}
+.dropdown {
+    position: relative;
     display: inline-block;
+}
+
+.dropdown-contain {
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 0px 8px 8px 0px #ffffff;
+    background-color: brown;
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 4px;
+}
+.dropdown:hover .dropdown-contain {
+    display :block;
 }
