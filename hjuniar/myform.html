@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <script language="JavaScript">
+        function check(form) {
+            if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                window.open('target.html')
+            } else {
+                alert("Error Password or Username")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="login">
+        Username
+        <input type="text" name="userid" /> Password
+        <input type="password" name="pswrd" />
+        <input type="button" onclick="check(this.form)" value="Login" />
+        <input type="reset" value="Cancel" />
+    </form>
+</body>
+
+</html>
