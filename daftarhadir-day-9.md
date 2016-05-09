@@ -3,12 +3,9 @@ Daftar Hadir Coding Mum Day 8
 
 1. Budi
 2. Chika
-<<<<<<< HEAD
-3. Natalia
-=======
 3. Yuni
 4. Dyah
 5. Maya
 6. teti
 7. Aditia
->>>>>>> origin/master
+8. Natalia
