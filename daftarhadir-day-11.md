@@ -6,3 +6,4 @@ Tanggal: 9 May 2016
 3. Yuni
 4. Maya
 5. Dyah
+6. Teti

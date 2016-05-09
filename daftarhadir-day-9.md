@@ -3,6 +3,7 @@ Daftar Hadir Coding Mum Day 8
 
 1. Budi
 2. Chika
+3. Dyah
 3. Yuni
 4. Dyah
 5. Maya
@@ -10,4 +11,6 @@ Daftar Hadir Coding Mum Day 8
 7. Aditia
 8. Tita
 9. Natalia
+8. Natalia
+9. Teti
 
