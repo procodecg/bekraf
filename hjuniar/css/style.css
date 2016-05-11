@@ -27,7 +27,7 @@ ul {
 
 li {
     display: inline-block;
-   
+
 }
 
 h2 {
@@ -36,6 +36,7 @@ h2 {
     color: black;
     font-family: oswald;
     font-weight: 400;
+    font-size: 35px;
 }
 
 p {
@@ -47,11 +48,11 @@ p {
 }
 
 .biggest-container{
-    background: white;    
+    background: white;
 }
 
 .image-container{
-    text-align: center;   
+    text-align: center;
 }
 
 .nav{
@@ -99,19 +100,33 @@ footer {
     margin-top: 50px;
     background-color: #262626;
     color: #fff;
-    text-align: center;    
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
 }
 
 .column4 {
     float: left;
     width: 25%;
+
+}
+
+.column4 a {
+    text-transform: uppercase;
+    color: black;
+    font-family: oswald;
+    font-weight: 400;
     
 }
 
+.column4 a:hover {
+    color: coral;
+} 
 
 .container{
     width: 1024px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -127,10 +142,11 @@ h3 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+    text-align: left;
 }
 
 .dropdown:hover .dropdown-content {
@@ -142,4 +158,79 @@ color: black;
     font-family: oswald;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.hero {
+    overflow:hidden;
+    position: relative;
+}
+
+.hero .description-box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 80px;
+    right: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: oswald;
+    padding: 0 20px 0 20px;
+    
+}
+
+.hero .description-box h3 {
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 40px 30px 0 30px;
+}
+
+.hero .description-box p {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+ul.links-hero {
+    background:none;
+    text-align: center;
+}
+
+ul.links-hero a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 130px;
+    height: 44px;
+    min-width: 130px;
+    padding: 5px 20px 5px 20px;
+    
+}
+
+.hero .description-box-left {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 80px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: oswald;
+    padding: 0 20px 0 20px;
+    
+}
+
+.hero .description-box-left h3 {
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 40px 30px 0 30px;
+}
+
+.hero .description-box-left p {
+    text-align: center;
+    margin-bottom: 30px;
+    
 }
