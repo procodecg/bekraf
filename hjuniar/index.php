@@ -72,26 +72,26 @@
                 <div class="container">
                 <div class="column4">
                     <img src="images/dompetibuanak.jpg" width="230">
-                    <h3><a href="">Long Wallet</a></h3>
+                    <h3><a href=""><?php echo "Long Wallet" ?></a></h3>
                     
                     
                 </div>
                 
                 <div class="column4">
                     <img src="images/dompetkartu.jpg" width="230">
-                    <h3><a href="">Card Wallet</a></h3>
+                    <h3><a href=""><?php echo "Card Wallet" ?></a></h3>
                     
                 </div>
                 
                 <div class="column4">
                     <img src="images/dompetkunci.jpg" width="230">
-                    <h3><a href="">Key Wallet</a></h3>
+                    <h3><a href=""><?php echo "Key Wallet" ?></a></h3>
                     
                 </div>
                 
                 <div class="column4">
                     <img src="images/dompetlong.jpg" width="230">
-                    <h3><a href="">Long Wallet Ivana</a></h3>
+                    <h3><a href=""><?php echo "Long Wallet Ivana" ?></a></h3>
                     
                 </div>
                 <div style="clear: both;"></div>
