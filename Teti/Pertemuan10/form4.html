@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>form checklist</title>
+    <script language="JavaScript">
+        function testButton(form) {
+            alert(form.check1.checked);
+        }
+    </script>
+
+</head>
+
+<body>
+    <form name="testform">
+        <input type="button" name="button" value="click" onclick="testButton(this.form)">
+        <br>
+        <br>
+        <input type="checkbox" name="check1" value="check1">Checkbox 1
+        <br>
+        <br>
+        <input type="checkbox" name="check2" value="check1">Checkbox 2
+        <br>
+        <br>
+        <input type="checkbox" name="check3" value="check1">Checkbox 3
+        <br>
+        <br>
+    </form>
+</body>
+
+</html>

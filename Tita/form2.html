@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<TITLE>Test Input </TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+function readText (form) {
+    TestVar =form.inputbox.value;
+    alert ("You typed: " + TestVar);
+}
+function writeText (form) {
+    form.inputbox.value = "Selamat Pagi....."
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="myform" ACTION="" METHOD="GET">
+Isilah Kotak di bawah ini: <BR></BR>
+    <INPUT TYPE="text" NAME="inputbox" VALUE=""></INPUT>
+    <P></P>
+    <INPUT TYPE="button" NAME="button1" Value="Membaca" onClick="readText(this.form)"></INPUT>
+    <INPUT TYPE="button" NAME="button2" Value="Menulis" onClick="writeText(this.form)"></INPUT>
+</FORM>
+</BODY>
+</HTML>

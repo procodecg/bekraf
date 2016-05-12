@@ -3,3 +3,8 @@ Tanggal: 9 May 2016
 
 1. Budi
 2. Chika
+3. Yuni
+4. Maya
+5. Dyah
+6. Teti
+7. Tita

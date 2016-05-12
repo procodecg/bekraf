@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form radio</title>
+    <script language="JavaScript">
+        function testButton(form) {
+            for (Count = 0; Count < 3; Count++) {
+                if (form.rad[Count].checked)
+                    break;
+            }
+            Count++;
+            alert("Button" + " " + Count + " " + "is selected");
+        }
+    </script>
+</head>
+
+<body>
+    <form name="testform">
+        <input type="button" name="button" value="Click" onclick="testButton(this.form)">
+        <br>
+        <br>
+        <input type="radio" name="rad" value="red_button1" onclick=0>radio1
+        <br>
+        <br>
+        <input type="radio" name="rad" value="red_button2" onclick=0>radio2
+        <br>
+        <br>
+        <input type="radio" name="rad" value="red_button3" onclick=0>radio3
+        <br>
+        <br>
+    </form>
+</body>
+
+</html>
