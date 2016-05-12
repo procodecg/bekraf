@@ -1,91 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Halaman Tengah Abadi</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="css/style.css">     
-</head>
-<body> 
-  
-<div class="container">
-<!--    <div style="padding:10px;">-->
-        <div class="hero">
-        
-    <h1 style="text-align:center;">HALAMAN TENGAH ABADI </h1>
-    <h3 style="text-align:center;"><i> tempat belajar, berbagi dan bermain</i> </h3>
-   
-        </div>
-<!--    </div>-->
-</div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latihan Bootstrap Dyah</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/dyah.css" rel="stylesheet">
+    </head>
+<body>
+<body>
     
-    <!-- PR buat paragraf dan spasi + style div lebih melengkug sudutnya +jenis font
-
-    -->
-    
-<div id="kolomkiri">
-  <!--<div style="background-color:plum; color:#9400d3; padding:40px;">
-   -->
-    <h3><u>Isi Rumah</u></h3>
-    <li> <a href="teras.html">TERAS</a></li>
-    <li>
+<!--     Start Header    -->
+<div class="container bg-header" id="navigation">
+    <div class="row">
+    <h1 class="col-sm-6">HALAMAN TENGAH ABADI</h1>
+    <nav class="col-sm-6 text-right">
+        <p><a href="teras.html">TERAS</a></p>
         <div class="dropdown">
-    <span>PENGHUNI</span>
-        <div class="dropdown-content">
-        <p><a href="hewan.html">KUCING</a></p>
-        <p><a href="hewan.html">TANAMAN</a></p>
+        <span>PENGHUNI</span>
+            <div class="dropdown-content">
+            <p><a href="hewan.html">KUCING</a></p>
+            <p><a href="tanaman.html">TANAMAN</a></p>
+            </div>
         </div>
-    </div>
+        <p></p>
+        <div class="dropdown">
+        <span>DAPUR</span>
+            <div class="dropdown-content">
+            <p><a href="kesukaan.html">KESUKAAN</a></p>
+            <p><a href="resep.html">RESEP</a></p>
+            </div>   
+        </div>
+        <p></p>
+        <div class="dropdown">
+        <span>KOLEKSI</span>
+            <div class="dropdown-content">
+            <p><a href="buku.html">BUKU</a></p>
+            <p><a href="lainlain.html">LAIN-LAIN</a></p>
+            </div>   
+        </div>
+    
+    </nav>
+  </div>
+</div>
+<!--    End Header-->
 
+<!--   Start Isi-->    
+<div class="container" id="main-content">
+    <div class="row intro">
+        <div class="col-sm-12 bg-header">Ini kolom kiri
+        <div class="col-xl-1 middle-content">Ini kolom kanan</div>
+        </div>
+                
+    
+    
+    </div>
+    <div class="row product">
         
-<!--        <div class="dropdown"><a href="hewan.html">PENGHUNI</a></div>-->
-    </li>
-    <li> <a href="koleksifoto.html">KOLEKSI</a></li>
-    <li> <a href="berbagi.html">BERBAGI</a></li>
-       
-    </div>
-    
-    
-    
-
-<div id="kolomtengah">
-    <div style="background-color:#ba55d3; color:#ffffff; padding:35px;">
-        <h3><u>TERAS</u></h3>
-        <h4>Halaman ini ada di tengah rumah. Cukup luas untuk tempat berlari, bermain, berkebun sampai menggelar tikar. <p>Penghuninya banyak dan punya masing-masing kesukaan. Dari yang berkaki dua, kaki empat sampai yang punya sayap. Dari yang suka masak, suka makan sampai ada yang suka bernyanyi. </p>
-            
-        <p>Semoga mampir di sini bisa memberi manfaat. Selamat bermain!</p> 
-        </h4>
-    </div>
-    
-    <div style="background-color:#ba55d3; color:#ffffff; padding:35px;">
-        <h3><u>PENGHUNI HALAMAN </u></h3>
-<!--   <h4 style="text-align:center;">-->
-        <a href="hewan.html"> <img src="image/kuling.JPG" width="300"><p>Teman Bermain</p></a>
-        <a href="tanaman.html"> <img src="image/hoyapohon.jpg" width="300"><p> Teman Bernafas</p></a>
-    
-    </div>
-    </div>
-    
-    
-    <!-- PR penempatan foto dan keterangan yang memanjang
-
-    -->
-    
-    <div id="kolomkanan">
-    
-        <h3><u>Penghuni Utama</u></h3>
-        
-        <li><a href="level1.html">Ibu</a></li>
-        <li><a href="cities.html">Mba Bos</a></li>
-        <li><a href="cities.html">Bos kecil</a></li>
+            <div class="col-xs-4 bg-hijau">Ini kolom kiri</div>
+            <div class="col-xs-4 bg-merah">Ini kolom kanan</div>
+            <div class="col-xs-4 bg-hijau">Ini kolom kanan</div>
         
     </div>
+</div>
 
-    <div class="myprofile-btn"><a>MyProfile</a>
-      </div>
+<!--    End Isi-->
     
-<!--    <div id="footer">@dyahparamita</div>-->
+<!--    Start footer-->
+<div class="container bg-hijau">Ini calon footer</div>
+<!--    End footer-->
+    
+<!--    start JavaScript-->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<!--    End JavaScript-->
+    
     
 </body>
-<!--    lalalallallala aku coba edit-->
+    </body>
 </html>
-
