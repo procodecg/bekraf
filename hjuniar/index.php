@@ -52,13 +52,13 @@
             </div>
             
             <div class="blockitem">
-               <span>create your own mighty wallet</span>                
+               <span><?php echo "create your own mighty wallet" ?></span>                
             </div>
             
             <div class="hero">
                <div class="description-box">
-                   <h3>try our (new) mixed leather</h3>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione sit fugiat facere dicta inventore voluptatem nemo cum rem.</p>
+                   <h3><?php echo "try our (new) mixed leather" ?></h3>
+                   <p><?php echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione sit fugiat facere dicta inventore voluptatem nemo cum rem." ?></p>
                    <ul class="links-hero">
                        <li><a href="#">shop now</a></li>
                    </ul>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="main">
-                <h2>create for her . create for you</h2>
+                <h2><?php echo "create for her . create for you" ?></h2>
                 
                 <div class="container">
                 <div class="column4">
@@ -101,7 +101,7 @@
                 
                 <div class="hero">
                    <div class="description-box-left">
-                   <h3>ready stock leather bag</h3>
+                   <h3><?php echo "ready stock leather bag" ?></h3>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione sit fugiat facere dicta inventore voluptatem nemo cum rem.</p>
                    <ul class="links-hero">
                        <li><a href="#">shop now</a></li>
