@@ -201,6 +201,10 @@ ul.links-hero a {
     padding: 5px 20px 5px 20px;
     
 }
+ul.links-hero li {
+    list-style: none;
+}
+
 
 .hero .description-box-left {
     position: absolute;

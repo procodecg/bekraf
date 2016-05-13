@@ -54,7 +54,7 @@
                         <span><a href="mixedleather.html">mixed leather</a></span>
                         <div class="dropdown-content">
                             <p><a href="newlongwallet">New Long Wallet</a></p>
-                            <p><a href="newbifoldwallet">New Bifold Wallet</a></p>
+                            <p><a href="newbifoldwallet.html">New Bifold Wallet</a></p>
                             <p><a href="newkeywallet">New Key Wallet</a></p>
                         </div>
                     </div>
