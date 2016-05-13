@@ -21,11 +21,16 @@
     display: inline-block;
 } 
 .navigasi li{
-    display: inline-block
+    display: inline-block;
+    
 }
 .logo{
     float: left;
 }
 .logo li {
     display: inline-block;
+}
+h5{
+    font-family: arial;
+    font-size: 100;
 }
