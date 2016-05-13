@@ -6,3 +6,4 @@ Tanggal: 4 May 2016
 2. Budi
 3. Teti
 4. Tita
+5. Natalia

@@ -6,3 +6,4 @@ Daftar Hadir Coding Mum Day 12
 3. Dyah
 4. Sandra
 5. Tita
+6. Natalia
