@@ -1,7 +1,7 @@
 .jumbotron .titleheader{
     text-align: center; 
     color: #0000ff;
-    background-color: lightblue;
+    background-color: rgba(183,222,237,1);
 }
 p{
     text-align: center;
@@ -10,8 +10,9 @@ p{
 }
 h2{
     text-align: center;
-    font-family: fantasy 30px;
-    color: green
+    font-family: fantasy 20px;
+    color: green;
+    background-image: image();
 }
 h3{
     text-align: center;
@@ -19,23 +20,37 @@ h3{
     color: ghostwhite;
 }
 .bg-pink{
-    background-color: palevioletred;
+    background-color: #fe9090;
+    height: 400px;
+    padding: 10px;
+    width: 390px;
 }
 .bg-green{
-    background-color: green;
+    background-color: rgba(248,255,232,1);
+    height: 330px;
+    font-family: sans-serif 50px;
+    color: rgba(63,76,107,1);
+    font-size: 22px;
 }
 .bg-orange{
-    background-color: orange
+    background-color: rgba(239,141,49,1);
+    height: 330px;
+    font-family: sans-serif 50px;
+    color: rgba(63,76,107,1);
+    font-size: 22px;
 }
 .navigasi li{
     display: inline-block;
     text-align: center;
-    word-break: 60px;
+    word-break: 100px;
     height: 50px;
     font-size: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding: 20px
+    padding: 20px;
+    background-color: darkolivegreen;
+    font-family: "Sue Ellen Francisco";
+    color: antiquewhite;
 }
 .logo li {
     display: block;
@@ -44,11 +59,13 @@ h3{
 
 .header {
     text-align: center;
+    background-color: darkolivegreen;
     
 }
 .dropdown {
     position: relative;
     display: inline-block;
+    word-break: 30px;
 }
 
 .dropdown-contain {
@@ -56,11 +73,60 @@ h3{
     position: absolute;
     min-width: 100px;
     box-shadow: 0px 8px 8px 0px #ffffff;
-    background-color: wheat;
+    background-color: rgba(228,239,192,1);
     padding: 12px 16px;
     z-index: 1;
     border-radius: 4px;
+    font-family: arial;
+}
+.dropdown-contain p {
+    white-space: nowrap;
 }
 .dropdown:hover .dropdown-contain {
     display :block;
+}
+.center {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h1 {
+    font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
+}
+.bg-blue{
+    background-color: #7abcff;
+    height: 400px;
+    width: 390px;
+}
+.bg-brown{
+    background-color: saddlebrown;
+    height: 400px;
+    padding: 10,10,10,10;
+}
+.bg-red{
+    background-color: red;
+    height: 400px;
+}
+h5{
+    font-family: sans-serif 100px;
+    
+color: black
+}
+.jumbotron {
+    padding-bottom: 0px;
+}
+h6{
+    text-align: center; 
+    color: #0000ff;
+    background-color: lightblue;
+    font-size: 35px;
+    background-image: image();
+    }
+h7{
+    text-align: center;
+    color: green; 
+    font-size: 20px;
+}
+.button{
+    background-color: cyan;
 }
