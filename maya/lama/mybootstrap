@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Maya bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="bandung yummies" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1>Maya First Bootstrap Page</h1>
+  <p>Today we are learning about bootstrap</p> 
+  <p>and I starting to write this page as example</p>           
+</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+#header img{
+    width: 900px;
+   
+}
+#header{
+     text-align: center;
+    background-color: aliceblue;
+}
+
+#title h1 { 
+    font-family: sans-serif;
+    color: #3d2eea;
+    text-align: center; 
+}
+#title{
+    background-color: bisque;
+}
+#isi-kiri{
+    background-color:lightcoral;
+    
+        
+    
+}
+#isi-kanan{
+    background-color: mediumaquamarine;
+
+}
+#isi-kanan-besar{
+    background-color: mediumaquamarine;
+
+}
+#isi-kanan h1{
+    text-align: center;
+}
+#isi-kiri h1{
+    text-align: center;
+}
