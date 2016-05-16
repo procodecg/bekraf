@@ -14,6 +14,7 @@ body {
   background-position: center;
   background-size:cover;
   margin: 0;
+    
 }
 .header{
     padding: 2px;
@@ -36,8 +37,8 @@ body {
 
 .top{
     list-style: none;
-/*    padding-top: ;*/
     word-spacing: 40px;
+/*    padding-top: 40px;*/
 
 }
 .top li {
@@ -46,8 +47,11 @@ body {
 
 .top li img{
     width: 200px;
-    border: 5px solid #deb887;
-    flex-wrap: wrap
+    border: 5px  #deb887;
+    border-style:groove;
+
+    flex-wrap: wrap;
+    
     
 }
 .top li a{

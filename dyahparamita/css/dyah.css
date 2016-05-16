@@ -199,13 +199,19 @@ body {
 }
 .bg-pinggir{
     background-color: 	#BDB76B ;
+    text-align: center;
+    padding: 15px;
+    border-style: dashed;
+
 }
 .bg-tengah {
     background-color: #FFDAB9;
     border-style: dashed;
+    text-align: center;
+    padding: 15px;
 }
 .menu-kiri {
-    padding:100px;
+    padding:200px;
     margin-top:;
 /*    clear:both;*/
     text-align:center;
@@ -217,7 +223,7 @@ body {
 
 }
 .menu-tengah {
-    padding:100px;
+    padding:200px;
     margin:50px;
     margin-top:;
 /*    clear:both;*/
@@ -229,7 +235,7 @@ body {
 /*    display:flex;*/
 }
 .menu-kanan {
-    padding:100px;
+    padding:200px;
     margin:50px;
     margin-top:;
 /*    clear:both;*/

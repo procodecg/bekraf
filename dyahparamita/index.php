@@ -125,16 +125,43 @@
     </div>
     <div class="row product">
         <div class="col-xs-4 bg-pinggir">
+            <h2>PENGHUNI</h2>
             <p>
-               Grumpy deskripsi pake more
+               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
             </p>   
+            <P>
+                Sebagian besar adalah tanaman. Karena mereka relatif mudah untuk tumbuh. Berbagai jenis dari bunga-bungaan, buah-buaham maupun daun-daunan. 
+            </P>
+            <p>
+                Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
+                Hewan yang seringkali mampir ada tupai, musang dan kalong
+            </p>
         </div>
         <div class="col-xs-4 bg-tengah">
-            <p> ini deskripsi dapur 
+            <h2>DAPUR</h2>
+            <p>
+               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
+            </p>   
+            <P>
+                Sebagian besar adalah tanaman. Karena mereka relatif mudah untuk tumbuh. Berbagai jenis dari bunga-bungaan, buah-buaham maupun daun-daunan. 
+            </P>
+            <p>
+                Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
+                Hewan yang seringkali mampir ada tupai, musang dan kalong
             </p>
         </div>    
         <div class="col-xs-4 bg-pinggir">
-            <p> ini deskripsi juga</p>
+            <h2>KOLEKSI</h2>
+            <p>
+               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
+            </p>   
+            <P>
+                Sebagian besar adalah tanaman. Karena mereka relatif mudah untuk tumbuh. Berbagai jenis dari bunga-bungaan, buah-buaham maupun daun-daunan. 
+            </P>
+            <p>
+                Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
+                Hewan yang seringkali mampir ada tupai, musang dan kalong
+            </p>
         </div>
         
     </div>
@@ -143,7 +170,26 @@
 <!--    End Isi-->
     
 <!--    Start footer-->
-<div class="container bg-hijau">Ini calon footer</div>
+<div class="container bg-pinggir">Ini calon footer
+        <p class="center"> 
+            <div class="col-sm-12">
+            <p class="center">
+            <ul class="top">  
+        <li>
+            <a href="https://www.instagram.com/lestaridy/">
+            <img src="image/Instagram.png"></a>
+            
+        </li>
+        <li>
+            <a href="https://twitter.com/lestaridy">
+                <img src="image/Twitter.png"></a> 
+        </li>            
+        <li>
+            <a href="http://facebook.com/paramitadyah">
+            <img src="image/Facebook%20(1).png"></a>
+        </li>           
+    
+
 <!--    End footer-->
     
 <!--    start JavaScript-->
