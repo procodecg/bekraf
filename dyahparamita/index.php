@@ -73,6 +73,7 @@
         </div>
     
     </nav>
+    
     <h1 class="col-sm-12">HALAMAN TENGAH ABADI</h1>
 </div>
 
@@ -82,10 +83,10 @@
 <!--   Start Isi-->    
 <div class="container" id="main-content">
     <div class="row intro">
-        <div class="col-sm-12 bg-header">
+        <div class="col-sm-12 bg-main">
         
             <div class="scroll-left">
-            <p>Ini kolom kiri...</p>
+            <p>SELAMAT DATANG DI HALAMAN TENGAH ABADI. TEMPAT BELAJAR, BERMAIN DAN BERBAGI. MULAI DARI MEMASAK, BERKEBUN SAMPAI MAIN AIR. SILAHKAN MASUK!</p>
               
         </div>
            
@@ -93,35 +94,48 @@
         <p class="center">
             <ul class="top">  
         <li>
-            <a href="http://www.twitter.com">
-                <img src="image/twitterbutton.png"></a>
+            <a href="https://www.instagram.com/lestaridy/">
+            <img src="image/Instagram.png"></a>
             
         </li>
         <li>
-            <a href="home.html">
-            <img src="image/instagram-logo-icon.png"></a>
-            
-        </li>
-
-            
+            <a href="https://twitter.com/lestaridy">
+                <img src="image/Twitter.png"></a> 
+        </li>            
         <li>
-            <a href="home.html">
-            <img src="image/fb-art.jpg"></a>
+            <a href="http://facebook.com/paramitadyah">
+            <img src="image/Facebook%20(1).png"></a>
         </li>           
             </ul>
-            
-            
-            </div>
-        </div>
                 
+        </div>
+        </div>
+    </div>
     
-    
+    <div class="row product">
+        <div class="col-xs-4 penghuni-content">        
+        </div>
+        
+        <div class="col-xs-4 dapur-content"> 
+        </div>   
+         
+        <div class="col-xs-4 koleksi-content"> 
+        </div>
+        
     </div>
     <div class="row product">
-        
-            <div class="col-xs-4 bg-hijau">Ini kolom kiri</div>
-            <div class="col-xs-4 bg-merah">Ini kolom kanan</div>
-            <div class="col-xs-4 bg-hijau">Ini kolom kanan</div>
+        <div class="col-xs-4 bg-pinggir">
+            <p>
+               Grumpy deskripsi pake more
+            </p>   
+        </div>
+        <div class="col-xs-4 bg-tengah">
+            <p> ini deskripsi dapur 
+            </p>
+        </div>    
+        <div class="col-xs-4 bg-pinggir">
+            <p> ini deskripsi juga</p>
+        </div>
         
     </div>
 </div>
