@@ -41,6 +41,8 @@ body {
     position: relative;
     display: inline-block;
     color: #008000;
+    
+    
 }
 
 .dropdown-content {
@@ -119,7 +121,7 @@ body {
 }
 
 .middle-content{
-    padding:200px;
+    padding:250px;
     background-image:url(../image/teling.jpg);  
     margin:20px;
     margin-top:;
@@ -131,7 +133,7 @@ body {
 }
 
 .nav {
-    
+    padding-top: 10px;
     text-align: right;
 }
 
@@ -141,7 +143,7 @@ body {
 }
 
 .center {
-    text-align: center;
+    object-position: center;
 }
 .border {
     border: 1px solid red;
@@ -149,12 +151,13 @@ body {
 
 .top{
     list-style: none;
-    padding-top: 10px;
-    word-spacing: 20px;
+    padding-top: px;
+    word-spacing: 40px;
 
 }
 .top li {
     display: inline-block;
+    
 }
 
 .top li img{
@@ -175,6 +178,8 @@ body {
     text-align:center;
     background-size:cover;
     background-position:left;
+    border:10px solid;
+    border-color: #FFE4B5;
 /*    display:flex;*/
 }
 .dapur-content{
@@ -185,6 +190,8 @@ body {
     text-align:center;
     background-size:cover;
     background-position:left;
+    border:10px solid;
+    border-color: #BDB76B;
 /*    display:flex;*/
 }
 .koleksi-content{
@@ -195,6 +202,8 @@ body {
     text-align:center;
     background-size:cover;
     background-position:left;
+    border:10px solid;
+    border-color: #FFE4B5;
 /*    display:flex;*/
 }
 .bg-pinggir{
@@ -205,9 +214,16 @@ body {
 
 }
 .bg-tengah {
-    background-color: #FFDAB9;
+    background-color:#FFE4B5;
     border-style: dashed;
     text-align: center;
+    padding: 15px;
+}
+
+.bg-footer {
+    background-color: #FFE4B5;
+    
+/*    text-align: center;*/
     padding: 15px;
 }
 .menu-kiri {

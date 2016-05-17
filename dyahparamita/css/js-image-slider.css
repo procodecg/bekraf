@@ -87,6 +87,10 @@
 #slider img, #slider>b, #slider a>b {
     position:absolute; border:none; display:none;
 }
+#slider img {
+    image-resolution: snap;
+    border-image-width: auto;
+}
 
 #slider .sliderInner {
     overflow:hidden;

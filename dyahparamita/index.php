@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Halaman Tengah Abadi</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/dyah.css" rel="stylesheet">
+    <link href="css/dyah.css" rel="stylesheet">
+<!--
+    <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="bootstrap/js/js-image-slider.js" type="text/javascript"></script>
+    <link href="css/generic.css" rel="stylesheet" type="text/css" />
+    <link href="css/tanaman.css" rel="stylesheet" type="text/css">
+-->
     
     </head>
 <body>
@@ -45,7 +51,7 @@
     <div class="row">
     <nav class="nav col-sm-12">
         <div class="dropdown">
-        <span>TERAS</span>
+            <a href="teras.html">TERAS</a>
         </div>
         <p></p>
         <div class="dropdown">
@@ -91,23 +97,7 @@
         </div>
            
         <div class="col-xl-1 middle-content">
-        <p class="center">
-            <ul class="top">  
-        <li>
-            <a href="https://www.instagram.com/lestaridy/">
-            <img src="image/Instagram.png"></a>
-            
-        </li>
-        <li>
-            <a href="https://twitter.com/lestaridy">
-                <img src="image/Twitter.png"></a> 
-        </li>            
-        <li>
-            <a href="http://facebook.com/paramitadyah">
-            <img src="image/Facebook%20(1).png"></a>
-        </li>           
-            </ul>
-                
+        <p class="center">       
         </div>
         </div>
     </div>
@@ -136,7 +126,22 @@
                 Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
                 Hewan yang seringkali mampir ada tupai, musang dan kalong
             </p>
+           
+             
+<!--            <div class="col-sm-12">-->
+            <p class="center">
+            <ul class="top">  
+        <li>
+            <a href="hewan.html">
+            <img src="image/Instagram.png"></a>
+        </li>
+        <li>
+            <a href="tanaman.html">
+                <img src="image/Twitter.png"></a> 
+        </li>            
+                </ul>
         </div>
+        
         <div class="col-xs-4 bg-tengah">
             <h2>DAPUR</h2>
             <p>
@@ -170,11 +175,9 @@
 <!--    End Isi-->
     
 <!--    Start footer-->
-<div class="container bg-pinggir">Ini calon footer
-        <p class="center"> 
-            <div class="col-sm-12">
-            <p class="center">
-            <ul class="top">  
+<div class="container bg-footer"> 
+     <p class="col-sm-6">        &copy;dyahparamita  </p>
+     <ul class="col-sm-6 top">    
         <li>
             <a href="https://www.instagram.com/lestaridy/">
             <img src="image/Instagram.png"></a>
@@ -188,7 +191,9 @@
             <a href="http://facebook.com/paramitadyah">
             <img src="image/Facebook%20(1).png"></a>
         </li>           
-    
+    </ul>
+    </div>
+
 
 <!--    End footer-->
     
@@ -196,6 +201,6 @@
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 <!--    End JavaScript-->
-    
+                    
 </body>
 </html>
