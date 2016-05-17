@@ -9,13 +9,18 @@ body {
 }
 
 body { 
-    font-family: fjalla one, sans-serif;
-    background-color: beige;
+  font-family: fjalla one, sans-serif;
+  background-color: beige;
   background-position: center;
   background-size:cover;
   margin: 0;
     
 }
+
+h1 {
+    color: #008000;
+}
+
 .header{
     padding: 2px;
     background-color: burlywood;  
@@ -43,6 +48,7 @@ body {
 }
 .top li {
     display: inline-block;
+    color: #008000;
 }
 
 .top li img{
@@ -56,7 +62,7 @@ body {
 }
 .top li a{
     text-decoration: none;
-    color: black;
+    color: #008000;
 }
 .dropdown {
     position: relative;

@@ -133,11 +133,11 @@
             <ul class="top">  
         <li>
             <a href="hewan.html">
-            <img src="image/Instagram.png"></a>
+            <img src="image/kuling.JPG"></a>
         </li>
         <li>
             <a href="tanaman.html">
-                <img src="image/Twitter.png"></a> 
+                <img src="image/puling.JPG"></a> 
         </li>            
                 </ul>
         </div>
@@ -154,6 +154,17 @@
                 Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
                 Hewan yang seringkali mampir ada tupai, musang dan kalong
             </p>
+            <p class="center">
+            <ul class="top">  
+        <li>
+            <a href="kesukaan.html">
+            <img src="image/dapur.jpg"></a>
+        </li>
+        <li>
+            <a href="resep.html">
+                <img src="image/teling.jpg"></a> 
+        </li>            
+                </ul>
         </div>    
         <div class="col-xs-4 bg-pinggir">
             <h2>KOLEKSI</h2>
@@ -167,6 +178,17 @@
                 Yang kedua terbanyak adalah hewan. Hewan yang dipelihara seringkali berkembang-biak, seperti kucing, burung maupun ikan.
                 Hewan yang seringkali mampir ada tupai, musang dan kalong
             </p>
+            <p class="center">
+            <ul class="top">  
+        <li>
+            <a href="hewan.html">
+            <img src="image/koleksi.jpg"></a>
+        </li>
+        <li>
+            <a href="tanaman.html">
+                <img src="image/tanaman-nine.jpg"ß></a> 
+        </li>            
+                </ul>
         </div>
         
     </div>
@@ -176,7 +198,7 @@
     
 <!--    Start footer-->
 <div class="container bg-footer"> 
-     <p class="col-sm-6">        &copy;dyahparamita  </p>
+    <p class="col-sm-6 strong">&copy;dyahparamita </p>
      <ul class="col-sm-6 top">    
         <li>
             <a href="https://www.instagram.com/lestaridy/">

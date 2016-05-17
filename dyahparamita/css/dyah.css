@@ -41,9 +41,11 @@ body {
     position: relative;
     display: inline-block;
     color: #008000;
-    
-    
 }
+.dropdown a{
+    color:   #008000;  
+    }    
+
 
 .dropdown-content {
     display:none;
@@ -162,11 +164,14 @@ body {
 
 .top li img{
     width: 70px;
-    opacity: 0.6;
+/*    opacity: 0.6;*/
+    border-radius: 70px;
+    
     
 }
 .top li a{
-    text-decoration: none;
+    text-decoration:none;
+    resize: both;
     color: white;
 }
 
@@ -215,7 +220,8 @@ body {
 }
 .bg-tengah {
     background-color:#FFE4B5;
-    border-style: dashed;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
     text-align: center;
     padding: 15px;
 }
