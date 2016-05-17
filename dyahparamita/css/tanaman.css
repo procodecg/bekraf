@@ -1,35 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-body { 
-    height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+html, body {
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
 }
-
 body { 
-  font-family: fjalla one, sans-serif;
-  background-color: beige;
+    font-family: fjalla one, sans-serif;
+    background-color: beige;
   background-position: center;
   background-size:cover;
   margin: 0;
+}
+
     
 }
 
-h1 {
-    color: #008000;
-}
 
 .header{
-    padding: 2px;
+    padding: 0px;
     background-color: burlywood;  
-    margin: 40px;
+/*    margin: 40px;*/
     margin-left: 120px;
     margin-right: 130px;
     clear:both;
     text-align: center;
     font-family: fjalla one, sans-serif;
+}
+
+.header-atas{
+    padding: 0px;
+    background-color:#BDB76B ;  
+/*    margin: 40px;*/
+    margin-left: 120px;
+    margin-right: 130px;
+    clear:both;
+    text-align: center;
+    font-family: fjalla one, sans-serif;
+    
+}
+
+.header p{
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    
+  
+    
 }
 
 .hero { 

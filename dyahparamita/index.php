@@ -133,11 +133,11 @@
             <ul class="top">  
         <li>
             <a href="hewan.html">
-            <img src="image/kuling.JPG"></a>
+            <img src="image/kulingbundar.jpg"></a>
         </li>
         <li>
             <a href="tanaman.html">
-                <img src="image/puling.JPG"></a> 
+                <img src="image/bunga.jpg"></a> 
         </li>            
                 </ul>
         </div>
@@ -162,7 +162,7 @@
         </li>
         <li>
             <a href="resep.html">
-                <img src="image/teling.jpg"></a> 
+                <img src="image/saladbundar.jpg"></a> 
         </li>            
                 </ul>
         </div>    
@@ -181,11 +181,12 @@
             <p class="center">
             <ul class="top">  
         <li>
-            <a href="hewan.html">
-            <img src="image/koleksi.jpg"></a>
+            <a href="buku.html">
+            <img src="image/koleksi.jpg" />
+            </a>
         </li>
         <li>
-            <a href="tanaman.html">
+            <a href="jualan.html">
                 <img src="image/tanaman-nine.jpg"ß></a> 
         </li>            
                 </ul>
@@ -222,6 +223,7 @@
 <!--    start JavaScript-->
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    
 <!--    End JavaScript-->
                     
 </body>

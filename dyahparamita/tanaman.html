@@ -9,13 +9,12 @@
     <link href="css/tanaman.css" rel="stylesheet" type="text/css">
 </head>
 <body> 
-   <div class="container">
-       
-
-    <h1>TERAS</h1>
-    </div>s
+   <div class="header-atas">
+    <h1>TANAMAN</h1>
+    </div>
    <div class="header">
-    <ul class="top">  
+    <p class="col-xs-4"><a href="index.php">&#8592 kembali ke depan</a></p> 
+       <ul class="col-xs-8 top"> 
     <li><a href="teras.html">TERAS</a></li>
     <li>
         <div class="dropdown">
@@ -47,28 +46,34 @@
     </li>    
     </ul>
 </div>
-    
+
+      
     <div class="middle-desc"> 
+        <div id="sliderFrame">
+        <div id="slider">
+            <img src="image/teras1.jpg" />
+            <img src="image/teras2.jpg" />
+            <img src="image/teras3.jpg" />
+            <img src="image/teras4.jpg" />
+        </div>
+        <!--Custom navigation buttons on both sides-->
+        <div class="group1-Wrapper">
+            <a onclick="imageSlider.previous()" class="group1-Prev"></a>
+            <a onclick="imageSlider.next()" class="group1-Next"></a>
+        </div>
+        <!--nav bar-->
+        <div style="text-align:center;padding:20px;z-index:20;">
+            <a onclick="imageSlider.previous()" class="group2-Prev"></a>
+            <a id='auto' onclick="switchAutoAdvance()"></a>
+            <a onclick="imageSlider.next()" class="group2-Next"></a>
+        </div>
+    </div>
+
+       
         <h3> Halaman Tengah Abadi, tempat bermain, belajar dan berbagi 
         <p>Awalnya ini adalah halaman belakang, seiring waktu dan semakin besar para penghuninya, dibangunlah rumah dan belakangpun menjadi tengah.</p>
         <p>Penghuni utama di sini adalah rumput, tanaman dan para hewan resmi maupun pendatang. Beberapa kali mengalami perubahan, dari kandang burung dan ayam yang besar, hampir mengambil 50% luas halaman tengah, rumah kawanan kelinci yang jumlahnya lebih dari 20 ekor sampai bentuk yang sekarang, hamparan rumput dan green house di ujung timur.</p>
-        <p>Pernah ada wacana untuk dibangun kolam renang untuk menggantikan hamparan rumput gajah, tapi mayoritas penghuni tidak setuju, alasannya karena akan mengurangi keluasaan berlari, untuk berenang cukup lah memompa kolam plastik</p></h3>
-        
-        <div id="sliderFrame">
-        <div id="slider">
-            <a href="http://www.menucool.com/javascript-image-slider" target="_blank">
-            <img src="image/dapur.jpg" alt="Welcome to Menucool.com" />
-            </a>
-            <img src="image/hoyapohon.jpg" />
-            <img src="image/koleksi.jpg" alt="" />
-            <img src="image/kuling.JPG" alt="#htmlcaption" />
-            <img src="image/teling.jpg" />
-        </div>
-        <div id="htmlcaption" style="display: none;">
-            <em>HTML</em> caption. Link to <a href="http://www.google.com/">Google</a>.
-        </div>
-    </div>
-      
+        <p>Pernah ada wacana untuk dibangun kolam renang untuk menggantikan hamparan rumput gajah, tapi mayoritas penghuni tidak setuju, alasannya karena akan mengurangi keluasaan berlari, untuk berenang cukup lah memompa kolam plastik</p></h3>  
     <ul class="top">  
         <li>
                 <img src="image/kebun.jpeg">
