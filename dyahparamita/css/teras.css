@@ -19,52 +19,31 @@ body {
 .bg-header{
     background-color: #BDB76B;
     font-family: fjalla one, sans-serif;
-    margin: 10px;
+    margin: 50px;
+/*
     margin-left: 120px;
-    margin-right: 130px;
+    margin-right:130px;
+*/
     
 }
-.bg-header row {
+.bg-main{
+    background-color: 	#DEB887;
+    font-family: fjalla one, sans-serif;
+
 }
 
+.bg-biru{
+    background-color: #0000ff;
+}
+
+.container bg-header navigation row h1 {
+    color: #008000;
+}
 #main-content{
     margin: 20px auto;
-    
-/*
-    padding: 0px;
-    padding-bottom: 10px;
-    background-color: burlywood;  
-    margin: 0px;
-    margin-left: 120px;
-    margin-right: 130px;
-    clear:both;
-    text-align: center;
-    font-family: fjalla one, sans-serif;
-*/
 }
 
 /*
-.header-bawah{
-    padding-left: 50px;
-    margin-top: 10px;
-    background-color:#BDB76B ;  
-    margin-left: 120px;
-    margin-right: 130px;
-    text-align: left ;
-    font-family: fjalla one, sans-serif;
-    
-}
-
-.header p{
-    text-align: left;
-    font-size: 12px;
-    font-style: italic;
-    
-  
-    
-}
-*/
-
 .hero { 
   background-color:#f3e5ab;
   background-size:contain;
@@ -72,31 +51,32 @@ body {
   padding: 50px 0;
 	margin: 0px; color: #ffffff;
 }
+*/
 
 .top{
     list-style: none;
-    padding-top: px;
     word-spacing: 40px;
+/*    padding-top: 40px;*/
 
 }
 .top li {
     display: inline-block;
-    
+    color: #008000;
 }
 
 .top li img{
-    width: 70px;
-/*    opacity: 0.6;*/
-    border-radius: 70px;
+    width: 200px;
+    border: 5px  #deb887;
+    border-style:groove;
+
+    flex-wrap: wrap;
     
     
 }
 .top li a{
-    text-decoration:none;
-    resize: both;
-    color: white;
+    text-decoration: none;
+    color: #008000;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -143,8 +123,8 @@ body {
 .middle-desc{
     padding: 30px;
     margin: 10px;
-    margin-left: 120px;
-    margin-right: 130px;
+    margin-left: 45px;
+    margin-right: 43px;
     clear:both;
     text-align:justify ;
     text-decoration-color: black;
