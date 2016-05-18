@@ -16,3 +16,21 @@
 .footer p {
     margin: 6px 0;
 }
+
+
+.diskon {
+    height: 60px;
+    padding: 5px;
+    background-color: bisque
+}
+.member {
+    height: 60px;
+    padding: 5px;
+    background-color: lightcyan
+}
+.halal {
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    background-color: chartreuse
+}  
