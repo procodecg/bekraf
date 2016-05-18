@@ -23,7 +23,7 @@ h3{
     background-color: #fe9090;
     height: 400px;
     padding: 10px;
-    width: 390px;
+    width: 380px;
 }
 .bg-green{
     background-color: rgba(248,255,232,1);
@@ -43,25 +43,59 @@ h3{
     display: inline-block;
     text-align: center;
     word-break: 100px;
-    height: 50px;
-    font-size: 25px;
+    height: 30px;
+    font-size: 35px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding: 20px;
     background-color: darkolivegreen;
     font-family: "Sue Ellen Francisco";
     color: antiquewhite;
+    padding: 20px;
 }
-.logo li {
-    display: block;
-    float: left;
-}
+/*.logo li {*/
+/*    display: block;*/
+/*    float: left;*/
+/*      padding-top: 30px;*/
+    
+/*}*/
 
 .header {
     text-align: center;
     background-color: darkolivegreen;
+    padding: 15px;
+}
+
+.header .logo {
+    float: left;
+    padding: 5px;
+}
+
+.header .logo a {
+    padding: 5px;
+}
+
+.header .navigasi {
+/*    display: inline-block;*/
+/*    word-break: 100px;*/
+    font-size: 35px;
+    padding: 5px;
+    font-family: "Sue Ellen Francisco";
+    margin-right: 90px;
+}
+
+.header .navigasi span {
+    padding: 10px;
+    color: antiquewhite;
     
 }
+
+.header .search {
+/*    float: right;*/
+    text-align: right;
+    margin-top: -55px;
+    padding: 5px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -96,7 +130,7 @@ h1 {
 .bg-blue{
     background-color: #7abcff;
     height: 400px;
-    width: 390px;
+    width: 380px;
 }
 .bg-brown{
     background-color: saddlebrown;
@@ -130,3 +164,11 @@ h7{
 .button{
     background-color: cyan;
 }
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*.search{*/
+/*    text-align: right;*/
+/*    padding-right: 10px;*/
+/*}*/
