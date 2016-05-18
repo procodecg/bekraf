@@ -139,6 +139,10 @@ body {
 /*    opacity:0.5;*/
 /*}*/
 
+#myCarousel carousel slide {
+    padding-left: 40px;
+}
+
 .gallery {
   margin-top: 20px;
   display: flex;
