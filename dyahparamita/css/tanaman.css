@@ -16,14 +16,11 @@ body {
   margin: 0;
 }
 
-    
-}
-
-
 .header{
     padding: 0px;
+    padding-bottom: 10px;
     background-color: burlywood;  
-/*    margin: 40px;*/
+    margin: 0px;
     margin-left: 120px;
     margin-right: 130px;
     clear:both;
@@ -31,14 +28,14 @@ body {
     font-family: fjalla one, sans-serif;
 }
 
-.header-atas{
-    padding: 0px;
+.header-bawah{
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-top: 10px;
     background-color:#BDB76B ;  
-/*    margin: 40px;*/
     margin-left: 120px;
     margin-right: 130px;
-    clear:both;
-    text-align: center;
+    text-align: left ;
     font-family: fjalla one, sans-serif;
     
 }
@@ -106,8 +103,9 @@ body {
 
 .middle-desc{
     padding: 30px;
-    margin:120px;
-    margin-top: 1px;
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 130px;
     clear:both;
     text-align:justify ;
     text-decoration-color: black;
