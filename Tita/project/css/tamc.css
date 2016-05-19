@@ -160,6 +160,10 @@ a:hover {
 .col-sm-10 {
     width: 300px;
 }
+.col-md-6{
+    position:fixed;
+    margin top:50px;
+}
 .carousel{
    height: 500px;
     margin-bottom: 30px;
@@ -173,4 +177,7 @@ a:hover {
     font-size: 25px;
     color:aliceblue;
     text-align: center;
+}
+.subtitle{
+    color:bisque;
 }
