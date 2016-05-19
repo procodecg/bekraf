@@ -1,0 +1,176 @@
+header {
+    overflow: hidden;
+    background-color: none;
+    color: aqua;
+}
+body {
+    height: 100%;
+    background-image: url(/images/tea-time.jpg);
+}
+
+.h1 {
+    margin-left: 20px;
+    display: table;
+}
+.h2 {
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.masthead-nav > li {
+    margin-left: 30px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: aqua;
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+.masthead-nav {
+    float: left;
+}
+a,
+a:focus,
+a:hover {
+    color: #f5f5f5;
+    font-size: 15px;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.masfoot {
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    position: fixed;
+    bottom: 50px;
+    left: 500px;
+}
+.inner {
+    font-size: 30px;
+    padding-top: 250px;
+    text-align: center;
+    color:aliceblue;
+    }
+.innercover{
+ font-size: 20px;
+    padding-top: 150px;
+    padding-left: 35px;
+    padding-right: 20px;
+    text-align: justify;
+    color:aliceblue;   
+}
+.cover-heading {
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 60px;
+    color: white;
+    position: fixed;
+    top: 225px;
+    left: 450px;
+}
+.lead {
+    font-family: cursive;
+    color: aliceblue;
+    position: fixed;
+    top: 330px;
+    left: 500px;
+}
+.isi{
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: snow;
+    position: fixed;
+    top: 225px;
+    left: 225px;
+    right: 225px;
+    text-align: justify;        
+}
+.container {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.fieldset {
+    display: block;
+    margin-top: 30px;
+}
+.lead {
+    font-size: 20px;
+    color: antiquewhite;
+}
+.row {
+    margin-top: 150px;
+}
+.h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.myCarousel {
+    overflow: hidden;
+    
+}
+.form {
+    text-align: right;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.col-sm-4 {
+    color: ghostwhite;
+    text-align: center;
+}
+.col-sm-6{
+    color: ghostwhite;
+    text-align: center;
+    font-size: 40px;
+        }
+.container h3 {
+    text-align: center;
+}
+.col-sm-10 {
+    width: 300px;
+}
+.carousel{
+   height: 500px;
+    margin-bottom: 30px;
+    position: fixed;
+    margin-top: 100px; 
+}
+.judul{
+    position: fixed;
+    margin-top: 85px;
+    margin-left: 35px;
+    font-size: 25px;
+    color:aliceblue;
+    text-align: center;
+}

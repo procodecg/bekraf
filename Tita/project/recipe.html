@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>recipe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="/css/tamc.css" rel="stylesheet">
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <ul class="nav masthead-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tcontact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="WebContent">Content<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="recipe.html">Tea Companions Recipe</a></li>
+                        <li><a href="Quote.html">Quote</a></li>
+                        <li><a href="story.html">Inspiring Story</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<div class="container">
+   
+  <div class="row">
+    <div class="col-sm-4">
+     <h3>Cakes </h3>
+      <img src="/images/cake.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+        <p><a href="chocolava.html">ChocoLava</a></p>
+        <p><a href="chocolava.html">CheeseCake</a></p>
+        <p><a href="chocolava.html">Strawberry CupCake</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Cookies</h3>
+      <img src="/images/chips.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+      <p><a href="chips.html">Choco Chips</a></p>
+       <p><a href="chips.html">Lemon Drop </a></p>
+       <p><a href="chips.html">Jam Tumbprints</a></p>
+        </div>
+    <div class="col-sm-4">
+      <h3>Pudding</h3>        
+      <img src="/images/rainbow.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+      <p><a href="pmanggo.html">Manggo Puding</a></p>
+      <p><a href="pmanggo.html">Vanilla Puding</a></p>
+      <p><a href="pmanggo.html">Choco Puding</a></p>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>
+
+  

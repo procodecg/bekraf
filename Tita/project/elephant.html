@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>recipe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="/css/tamc.css" rel="stylesheet">
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <ul class="nav masthead-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tcontact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="WebContent">Content <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="recipe.html">Tea Companions Recipe</a></li>
+                        <li><a href="Quote.html">Quote</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="test" tabindex="-1" href="">Inspiring Story <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="story.html">Child in the Train</a></li>
+                                <li><a tabindex="-1" href="elephant.html">The Elephant Rope</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <div class="inner cover">
+        <p> The Elephant Rope</p>
+        As a man was passing the elephants, he suddenly stopped, confused by the fact that these huge creatures were being held by only a small rope tied to their front leg. No chains, no cages. It was obvious that the elephants could, at anytime, break away from their bonds but for some reason, they did not. He saw a trainer nearby and asked why these animals just stood there and made no attempt to get away. “Well,” trainer said, “when they are very young and much smaller we use the same size rope to tie them and, at that age, it’s enough to hold them. As they grow up, they are conditioned to believe they cannot break away. They believe the rope can still hold them, so they never try to break free.” The man was amazed. These animals could at any time break free from their bonds but because they believed they couldn’t, they were stuck right where they were. Like the elephants, how many of us go through life hanging onto a belief that we cannot do something, simply because we failed at it once before? Failure is part of learning; we should never give up the struggle in life. </p>
+    </div>
+    <!--footer-->
+    <div class="masfoot">
+        <p>&copy; titam 2016 </p>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-submenu a.test').on("click", function(e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>
