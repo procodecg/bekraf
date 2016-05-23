@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+html, body {
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+body { 
+    font-family: fjalla one, sans-serif;
+    background-color: beige;
+  background-position: center;
+  background-size:cover;
+  margin: 0;
+}
+
+.bg-header{
+    background-color: #BDB76B;
+    font-family: fjalla one, sans-serif;
+    margin: 50px;
+/*
+    margin-left: 120px;
+    margin-right:130px;
+*/
+    
+}
+.bg-main{
+    background-color: 	#DEB887;
+    font-family: fjalla one, sans-serif;
+
+}
+
+.bg-biru{
+    background-color: #0000ff;
+}
+
+.container bg-header navigation row h1 {
+    color: #008000;
+}
+#main-content{
+    margin: 20px auto;
+}
+
+/*
+.hero { 
+  background-color:#f3e5ab;
+  background-size:contain;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
+}
+*/
+
+.top{
+    list-style: none;
+    word-spacing: 40px;
+/*    padding-top: 40px;*/
+
+}
+.top li {
+    display: inline-block;
+    color: #008000;
+}
+
+.top li img{
+    width: 200px;
+    border: 5px  #deb887;
+    border-style:groove;
+
+    flex-wrap: wrap;
+    
+    
+}
+.top li a{
+    text-decoration: none;
+    color: #008000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #008000;
+}
+.dropdown a{
+    color:   #008000;  
+    }    
+
+
+.dropdown-content {
+    display:none;
+    position:absolute;
+    background-color:;
+    min-width: 80px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 4px;
+    color:aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.nav p {
+    display: inline-block;
+    width: 50px;
+}
+
+.center {
+    object-position: center;
+}
+.border {
+    border: 1px solid red;
+}
+
+
+.middle-desc{
+    padding: 30px;
+    margin: 10px;
+    margin-left: 45px;
+    margin-right: 55px;
+    clear:both;
+    text-align:justify ;
+    text-decoration-color: black;
+/*    background-size:cover;*/
+/*    background-position: center;*/
+    border: 2px solid #deb887;
+    font-family: PT sans narrow,sans-serif;
+   
+}
+
+/*.img{*/
+/*    opacity:0.5;*/
+/*}*/
+
+#myCarousel carousel slide {
+    padding-left: 40px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+
+.footer {
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;   
+}
+
+.myprofile-btn {
+  float:none;
+}
+
+.myprofile-btn a {
+  cursor: pointer;
+  margin: 0px;
+  padding: 5px 0px;
+  border: none;
+  position:relative;
+  resize: 20px;
+
+
+}
+
+.myprofile-btn a:active {
+  top: 20px;
+
+}

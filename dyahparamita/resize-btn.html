@@ -1,0 +1,41 @@
+<html>
+<head>
+<script language="javascript">
+<!--
+var image1=new Image()
+image1.src="images1.jpg"
+var image2=new Image()
+image2.src="images2.jpg"
+var image3=new Image()
+image3.src="images3.jpg"
+//-->
+</script>
+</head>
+<body>
+<center>
+<h2>SlideShow</h2>
+<h2>Contoh Slide Show Header</h2>
+<hr size=5 color="black">
+<img src="image/tamankucing.jpg" name="slide" width="800" height="200">
+<script>
+<!--
+//variable yang akan menaikan hitungan gambar
+var step=1
+function slideit(){
+//jika browser tidak mendukung metode dokumen.image maka keluar.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<3)
+step++
+else
+step=1
+//memanggil function "slideit()" setiap 3 detik
+setTimeout("slideit()",3000)
+}
+slideit()
+//-->
+</script>
+    </center>
+</body>
+</html>

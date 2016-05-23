@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<TITLE>Test Input </TITLE>
+<SCRIPT language= "JavaScript">
+function testResults (form) {
+    var TestVar = form.inputbox.value;
+    alert ("You typed: " + TestVar);
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+    <FORM Name="myform" action="" method="get">Silahkan tulis di bawah: <BR></BR>
+    <INPUT type="text" name="inputbox" value=""><P></P></INPUT>
+    <INPUT type="button" name="button" value="TEKAN DI SINI" onClick="testResults(this.form)"></INPUT>
+
+</FORM>
+</BODY>
+</HTML>
+    

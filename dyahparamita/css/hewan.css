@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+body { 
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+body { 
+    font-family: fjalla one, sans-serif;
+    background-color: beige;
+  background-position: center;
+  background-size:cover;
+  margin: 0;
+}
+.header{
+    padding: 2px;
+    background-color: burlywood;  
+    margin: 40px;
+    margin-left: 120px;
+    margin-right: 130px;
+    clear:both;
+    text-align: center;
+    font-family: fjalla one, sans-serif;
+}
+
+.hero { 
+  background-color:#f3e5ab;
+  background-size:contain;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
+}
+
+.top{
+    list-style: none;
+/*    padding-top: ;*/
+    word-spacing: 40px;
+
+}
+.top li {
+    display: inline-block;
+}
+
+.top li img{
+    width: 200px;
+    border: 5px solid #deb887;
+    flex-wrap: wrap
+    
+}
+.top li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:;
+    min-width: 80px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.middle-desc{
+    padding: 30px;
+    margin:120px;
+    margin-top: 1px;
+    clear:both;
+    text-align:justify ;
+    text-decoration-color: black;
+/*    background-size:cover;*/
+/*    background-position: center;*/
+    border: 2px solid #deb887;
+    font-family: PT sans narrow,sans-serif;
+   
+}
+
+/*.img{*/
+/*    opacity:0.5;*/
+/*}*/
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+
+.footer {
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;   
+}
+
+.myprofile-btn {
+  float:none;
+}
+
+.myprofile-btn a {
+  cursor: pointer;
+  margin: 0px;
+  padding: 5px 0px;
+  border: none;
+  position:relative;
+  resize: 20px;
+
+
+}
+
+.myprofile-btn a:active {
+  top: 20px;
+
+}
