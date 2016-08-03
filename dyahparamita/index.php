@@ -1,4 +1,4 @@
-<!--<?php //include 'connection.php';?>-->
+<?php //include 'connection.php';?>
  <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,6 @@
     
     </head>
 <body>
-<!--
 <?php
 //$servername = "localhost";
 //$username = "root";
@@ -46,61 +45,58 @@
 //}
 //$conn->close();
 ?>
--->
     
 <!--     Start Header    -->
 <div class="container bg-header" id="navigation">
     <div class="row">
-    <nav class="nav col-sm-12">
-        <div class="dropdown">
-            <a href="teras.html">TERAS</a>
-        </div>
-        <p></p>
-        <div class="dropdown">
-        <span>PENGHUNI</span>
-            <div class="dropdown-content">
-            <p><a href="hewan.html">KUCING</a></p>
-            <p><a href="tanaman.html">TANAMAN</a></p>
+        <nav class="nav col-sm-12">
+            <div class="dropdown">
+                <a href="teras.html">TERAS</a>
             </div>
-        </div>
-        <p></p>
-        <div class="dropdown">
-        <span>DAPUR</span>
-            <div class="dropdown-content">
-            <p><a href="kesukaan.html">KESUKAAN</a></p>
-            <p><a href="resep.html">RESEP</a></p>
-            </div>   
-        </div>
-        <p></p>
-        <div class="dropdown">
-        <span>KOLEKSI</span>
-            <div class="dropdown-content">
-            <p><a href="buku.html">BUKU</a></p>
-            <p><a href="jualan.html">JUALAN</a></p>
-            </div>   
-        </div>
+            <p></p>
+            <div class="dropdown">
+            <span>PENGHUNI</span>
+                <div class="dropdown-content">
+                <p><a href="hewan.html">KUCING</a></p>
+                <p><a href="tanaman.html">TANAMAN</a></p>
+                </div>
+            </div>
+            <p></p>
+            <div class="dropdown">
+            <span>DAPUR</span>
+                <div class="dropdown-content">
+                <p><a href="kesukaan.html">KESUKAAN</a></p>
+                <p><a href="resep.html">RESEP</a></p>
+                </div>   
+            </div>
+            <p></p>
+            <div class="dropdown">
+            <span>KOLEKSI</span>
+                <div class="dropdown-content">
+                <p><a href="buku.html">BUKU</a></p>
+                <p><a href="jualan.html">JUALAN</a></p>
+                </div>   
+            </div>
     
-    </nav>
+        </nav>
     
     <h1 class="col-sm-12">HALAMAN TENGAH ABADI</h1>
-</div>
-
+    </div>
 </div>
 <!--    End Header-->
 
 <!--   Start Isi-->    
 <div class="container" id="main-content">
     <div class="row intro">
-        <div class="col-sm-12 bg-main">
-        
+        <div class="col-sm-12 bg-main">        
             <div class="scroll-left">
-            <p>SELAMAT DATANG DI HALAMAN TENGAH ABADI. TEMPAT BELAJAR, BERMAIN DAN BERBAGI. MULAI DARI MEMASAK, BERKEBUN SAMPAI MAIN AIR. SILAHKAN MASUK!</p>
-              
-        </div>
-           
-        <div class="col-xl-1 middle-content">
-        <p class="center">       
-        </div>
+            <p>SELAMAT DATANG DI HALAMAN TENGAH ABADI. TEMPAT BELAJAR, 
+            BERMAIN DAN BERBAGI. MULAI DARI MEMASAK, BERKEBUN SAMPAI MAIN AIR. 
+            SILAHKAN MASUK!</p>       
+            </div>
+            <div class="col-xl-1 middle-content">
+            <p class="center">       
+            </div>
         </div>
     </div>
     
@@ -112,83 +108,74 @@
         </div>   
          
         <div class="col-xs-4 koleksi-content"> 
-    
         </div>
-        
     </div>
     <div class="row product">
         <div class="col-xs-4 bg-pinggir">
-            <h2>PENGHUNI</h2>
-            <p>
-               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
-            </p>   
-            <p>
-               <a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
-            </p>
-           
-             
-<!--            <div class="col-sm-12">-->
+        <h2>PENGHUNI</h2>
+        <p>Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. 
+           Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
+        </p>   
+        <p><a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
+        </p>
+                
             <p class="center">
-            <ul class="top">  
-        <li>
-            <a href="hewan.html">
-            <img src="image/kulingbundar.jpg"></a>
-        </li>
-        <li>
-            <a href="tanaman.html">
+                <ul class="top">  
+            <li>
+                <a href="hewan.html">
+                <img src="image/kulingbundar.jpg"></a>
+            </li>
+            <li>
+                <a href="tanaman.html">
                 <img src="image/bunga.jpg"></a> 
-        </li>            
+            </li>            
                 </ul>
         </div>
         
         <div class="col-xs-4 bg-tengah">
-            <h2>DAPUR</h2>
-            <p>
-               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
-            </p>   
-            <p>
-               <a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
-            </p>
+        <h2>DAPUR</h2>
+        <p> Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. 
+           Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi
+        </p>   
+        <p><a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
+        </p>
+        
             <p class="center">
-            <ul class="top">  
-        <li>
-            <a href="kesukaan.html">
-            <img src="image/dapur.jpg"></a>
-        </li>
-        <li>
-            <a href="resep.html">
+                <ul class="top">  
+            <li>
+                <a href="kesukaan.html">
+                <img src="image/dapur.jpg"></a>
+            </li>
+            <li>
+                <a href="resep.html">
                 <img src="image/saladbundar.jpg"></a> 
-        </li>            
-                </ul>
-        </div>    
-        <div class="col-xs-4 bg-pinggir">
-            <h2>KOLEKSI</h2>
-            <p>
-               Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi.
-               <p>
-               <a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
-            </p>  
-            <p>
-                
-            </p>
-            <p class="center">
-            <ul class="top">  
-        <li>
-            <a href="buku.html">
-            <img src="image/koleksi.jpg" />
-            </a>
-        </li>
-        <li>
-            <a href="jualan.html">
-                <img src="image/tanaman-nine.jpg"ß></a> 
-        </li>            
+            </li>            
                 </ul>
         </div>
-        
+            
+        <div class="col-xs-4 bg-pinggir">
+        <h2>KOLEKSI</h2>
+        <p>Halaman Tengah Abadi dihuni dengan berbagai mahluk hidup. 
+            Ada yang memang memilih untuk tinggal ataupun yang datang dan pergi.
+        </p>
+        <p><a href="../dyahparamita/tanaman.html"> &#8230 baca selanjutnya</a>
+        </p>  
+            <p class="center">
+                <ul class="top">  
+            <li>
+                <a href="buku.html">
+                <img src="image/koleksi.jpg" /></a>
+            </li>
+            <li>
+                <a href="jualan.html">
+                <img src="image/tanaman-nine.jpg"ß></a> 
+            </li>            
+                </ul>
+        </div>        
     </div>
 </div>
 
-<!--    End Isi-->
+<!-----    End Isi ------>
     
 <!--    Start footer-->
 <div class="container bg-footer"> 
@@ -196,8 +183,7 @@
      <ul class="col-sm-6 top">    
         <li>
             <a href="https://www.instagram.com/lestaridy/">
-            <img src="image/Instagram.png"></a>
-            
+            <img src="image/Instagram.png"></a>            
         </li>
         <li>
             <a href="https://twitter.com/lestaridy">
@@ -221,3 +207,4 @@
                     
 </body>
 </html>
+åå

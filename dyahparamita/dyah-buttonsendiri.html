@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>Radio Button Test </TITLE>
+<SCRIPT language= "JavaScript">
+    function testButton (form) 
+{
+    for (count=0; count<3; count++){
+        if (form.rad[count].checked) 
+            break;
+    }
+    
+    count++;
+    alert ("Anda Memilih Nomor " +count+" ");
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+    <FORM Name="testform">
+<!--        <BR></BR>-->
+    <INPUT type="button" name="button" value="Klik salah satu"
+           onClick="testButton(this.form)">
+        <br><p></p>
+    </INPUT> 
+        <INPUT type="radio" name="rad" value="rad_button1" onClick=0>Pilihan 1
+        </INPUT>    
+        <INPUT type="radio" name="rad" value="rad_button2" onClick=0>Pilihan 2
+        </INPUT>
+        <INPUT type="radio" name="rad" value="rad_button3" onClick=0>Pilihan 3<br>
+        </INPUT>
+
+
+</FORM>
+</BODY>
+</HTML>
+    

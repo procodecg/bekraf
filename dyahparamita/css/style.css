@@ -1,21 +1,8 @@
-html, body {
-  min-height: 100%;
-  display:grid;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
-}
 body { 
-/*    height: 100%;*/
-/*	margin: 0;*/
-/*	text-align: center;*/
-/*	width: 100%;*/
-/*    display: flex;*/
-    font-family: 'Lato', sans-serif;
-    background-image: url('http://freedesignfile.com/upload/2013/11/blue_sky_05.jpg');
-  background-position: center;
-  background-size:cover;
-  margin: 0;
+    height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
 }
 
 body { 
@@ -26,17 +13,6 @@ body {
   margin: 0;
 }
 
-<<<<<<< HEAD
-body { 
-    font-family: 'Lato', sans-serif;
-    background-image: url('http://freedesignfile.com/upload/2013/11/blue_sky_05.jpg');
-  background-position: center;
-  background-size:cover;
-  margin: 0;
-}
-
-=======
->>>>>>> dyah-paramita
 
 h1 { text-align: center;
     font-family: sans-serif;
@@ -50,12 +26,11 @@ h2 {
 
 h3 {
     font-size: 25px;
-    text-align: center;
 }
 
 h4{
     font-size: 18px;
-    color: #ffffff;
+    color: blue;
     font-family: sans-serif;
     text-align: justify
 }
@@ -66,45 +41,12 @@ h4{
     margin: 30px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-.inside-head{
-/*    background-image: url(fotograrden.jpeg)*/
-/*    background-position: center top;*/
-/*    background-size: cover;*/
-/*    padding: 20px;*/
-    
-}
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> dyah-paramita
->>>>>>> master
 
 #kolomkiri{
     width: 300px;
     float: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-left: 40px;
 /*    background-color: plum;*/
-=======
-    padding: 30px;
-    margin-right: 20px;
-    background-color: plum;
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
-    padding-left: 40px;
-/*    background-color: plum;*/
->>>>>>> dyah-paramita
->>>>>>> master
     
 }
 
@@ -136,19 +78,12 @@ li {
 
 .hero { 
   background-image: url("http://www.vegetablegardener.com/assets/uploads/posts/62669/garden.jpg");
-  background-size:cover;
-    background-position:center;
+  background-size:contain;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  padding: 30px 0;
-	margin: 20px; color: blue;
+  padding: 50px 0;
+	margin: 0px; color: #ffffff;
 }
 
-<<<<<<< HEAD
-.myprofile-btn{
-    float: right
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 .myprofile-btn {
   float: right;
 }
@@ -186,60 +121,8 @@ li {
 
 .dropdown:hover .dropdown-content {
     display: block;
-=======
-.myprofile-btn{
-    float: right
->>>>>>> master
-=======
-.myprofile-btn {
-  float: right;
->>>>>>> dyah-paramita
 }
 
-.myprofile-btn a {
-  cursor: pointer;
-  margin-right: 100px;
-  padding: 8px 50px;
-  border: 2px solid #204156;
-  position:relative;
-
-}
-
-.myprofile-btn a:active {
-  top: 2px;
-
-}
-
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: plum;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
->>>>>>> master
-}
-
-.myprofile-btn a {
-    cursor:cell;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-
-}
 
 #footer {
     padding: 10px 0;
